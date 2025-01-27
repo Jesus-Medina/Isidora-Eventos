@@ -1,4 +1,139 @@
-<!-- Commit inicial del la estructura del proyecto -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
 
-<!-- este index actua como home page -->
+    <!-- Base CSS -->
+    <link rel="stylesheet" href="css/base/global.css">
 
+    <!-- Theme CSS -->
+
+
+    <!-- Layout CSS -->
+    <link rel="stylesheet" href="css/layout/header.css">
+    <link rel="stylesheet" href="css/layout/navbar.css">
+    <link rel="stylesheet" href="css/layout/sections.css">
+
+    <!-- Modules CSS -->
+    <link rel="stylesheet" href="css/modules/header-modules/header-content.css">
+    <link rel="stylesheet" href="css/modules/header-modules/buttons.css">
+    <link rel="stylesheet" href="css/modules/header-modules/social-menu.css">
+    <link rel="stylesheet" href="css/modules/header-modules/mobile-contact.css">
+    <link rel="stylesheet" href="css/modules/header-modules/central-menu.css">
+
+    <!-- State CSS -->
+    <link rel="stylesheet" href="css/state/menu-active.css">
+
+    <!-- SimpleBar CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.css">
+    <!-- SimpleBar JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js" defer></script>
+    
+    <!-- Navbar JavaScript -->
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+    <!-- WhatsApp Container -->
+    <div class="whatsapp-container">
+        <a href="#">
+            <img class="whatsapp-container__image" src="assets/images/whatsapp.webp" alt="">
+        </a>
+    </div>
+
+    <div class="scroll-container" data-simplebar>
+        <section class="header" id="home">
+            <!-- Video como fondo -->
+            <video class="header__video-background" autoplay muted loop>
+                <source src="assets/videos/header-video-1.webm" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+
+            <div class="navbar-wrapper">
+                <nav class="navbar">
+                    <div class="navbar__social-media-container">
+                        <ul class="navbar__social-menu-list">
+                            <li class="navbar__social-menu-item">
+                                <a href="#">
+                                    <img class="navbar__social-menu-icon" id="facebook-icon" src="assets/images/facebook-icon.webp" alt="">
+                                </a>
+                            </li>
+                            <li class="navbar__social-menu-item">
+                                <a href="#">
+                                    <img class="navbar__social-menu-icon" id="instagram-icon" src="assets/images/instagram-icon.webp" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="navbar__central-menu-container">
+                        <ul class="navbar__menu">
+                            <li class="navbar__menu-item"><a href="#home">Inicio</a></li>
+                            <li class="navbar__menu-item"><a href="#services">Servicios</a></li>
+                            <li class="navbar__menu-logo">
+                                <a href="#" class="navbar__logo-container">
+                                    <img class="navbar__logo-image" src="assets/images/logo.webp" alt="">
+                                </a>
+                            </li>
+                            <li class="navbar__menu-item"><a href="#about">Nosotros</a></li>
+                            <li class="navbar__menu-item"><a href="#footer">Contacto</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="navbar__mobile-number-container">
+                        <a href="" class="navbar__mobile-number-link">
+                            <div class="navbar__mobile-number">
+                                <img class="navbar__mobile-number-icon" src="assets/images/mobile.webp" alt="">
+                                <p class="navbar__mobile-number-text">+56 9 1234 5678</p>
+                            </div>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            
+
+            <div class="header__content">
+                <div class="header__container">
+                    <hr class="header__vertical-line">
+                    <div class="header__text-container">
+                        <div class="header__text">
+                            <h1 class="header__title">Doña Isidora</h1>
+                            <h3 class="header__subtitle">Coffee Breaks & Catering</h3>
+                        </div>
+                        <div class="header__button">
+                            <a href="#cotizar" class="header__button-link">
+                                <p class="header__button-text">Contactanos</p>
+                            </a>
+                        </div>
+                    </div>
+                    <hr class="header__vertical-line">
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h1 class="section__title">Services</h1>
+        </section>
+
+        <section class="about" id="about">
+            <h1 class="section__title">About</h1>
+        </section>
+
+        <section class="footer" id="footer">
+            <div class="contact__container">
+                <h1 >Cotizar</h1>
+            </div>
+
+            <div class="footer__container">
+                <h1>Footer</h1>
+            </div>
+
+            <div class="copyleft__container">
+                <h1>Copyleft</h1>
+            </div>
+        </section>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

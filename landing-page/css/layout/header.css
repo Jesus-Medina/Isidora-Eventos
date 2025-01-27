@@ -1,0 +1,38 @@
+/*
+
+    HEADER LAYOUT STYLES
+
+*/
+
+
+
+.header {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-clip: url("../../assets/images/header-image-1.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.header__video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Escala el video para que cubra todo el fondo */
+    z-index: -1; /* Coloca el video detrás del contenido */
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-bg-overlay);
+    z-index: 1;
+}

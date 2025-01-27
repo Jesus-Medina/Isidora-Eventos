@@ -1,0 +1,59 @@
+/*
+
+    CENTRAL MENU STYLES
+
+*/
+
+.navbar__central-menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 60%;
+}
+
+.navbar__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2.5rem;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar__menu-item {
+    width: 10%;
+}
+
+.navbar__menu-item a {
+    display: flex;
+    width: 100%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
+}
+
+.navbar__menu-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.navbar__logo-container {
+    height: 100%;
+}
+
+.navbar__logo-image {
+    width: auto;
+    height: 100%;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.432));
+}
+
+.navbar__menu-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-family: "Prata", serif;
+    font-weight: bold;
+    display: inline;
+}
