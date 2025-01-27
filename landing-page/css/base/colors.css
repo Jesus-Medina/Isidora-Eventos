@@ -1,0 +1,21 @@
+/*
+
+    BASE COLOR VARIABLES
+
+*/
+
+/* TODO ARREGLAR COLORES A COLORES REALES DEL PROYECTO Y PONERLOS EN VARIABLES*/
+
+:root {
+    /* Primary Colors */
+    --color-primary: #800000;
+    --color-secondary: goldenrod;
+    
+    /* Text Colors */
+    --color-text-light: white;
+    --color-text-dark: #333;
+    
+    /* Background Colors */
+    --color-bg-overlay: rgba(51, 29, 0, 0.295);
+    --color-bg-dark: rgba(0,0,0,0.7);
+}
