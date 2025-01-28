@@ -1,9 +1,6 @@
-section {  /*Seccion general de la vista services*/
+.services{
     display: flex; /*Maquetar con flex*/
     flex-direction: column; /*Modo columna en flex*/
-}
-
-.services{
     justify-content: center;
     align-items: center; /*Contenido alineado en el centro*/
     background-color: var(--color-text-light);
