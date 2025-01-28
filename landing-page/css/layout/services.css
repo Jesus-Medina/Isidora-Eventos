@@ -1,0 +1,71 @@
+section {  /*Seccion general de la vista services*/
+    display: flex; /*Maquetar con flex*/
+    flex-direction: column; /*Modo columna en flex*/
+}
+
+.services{
+    justify-content: center;
+    align-items: center; /*Contenido alineado en el centro*/
+    background-color: var(--color-text-light);
+}
+
+.section__title {
+    display: flex; /*Alinear automáticamente en una fila todos los elementos del componente*/
+    align-items: center; /* Centra horizontalmente */
+    margin-top: -3%; /*Acercar titulo con navbar*/
+    padding-bottom: 0.5rem; /*Alejar titulo con descripcion*/
+    gap: 1rem; /* Espaciado entre las líneas y el título */
+}
+
+.title{
+    font-family: 'Prata', serif; /* Tipo de letra */
+    font-size: 2rem; /* Tamaño del título */
+    color: #333; /* Color del texto */
+}
+
+.title__line{
+    width: 15rem; /* Longitud de la línea */
+    height: 0.15rem; /* Grosor de la línea */
+    background-color: goldenrod; /* Color de la línea */
+    border: none; /* Elimina el borde predeterminado de <hr> */
+}
+
+.section__description {
+    font-family: 'Bai Jamjuree', sans-serif; /*Tipo de letra*/
+    font-size: var(--text-base); /*Tamaño de letra*/
+    max-width: 55%; /*Ancho del parrafo*/
+    padding-bottom: 1%; /*margen de la zona de abajo de la descripcion*/
+    line-height: 1.7; /*Espacio entre columnas*/
+    text-align: center; /*Centrar texto*/
+}
+
+.services__container {
+    display: flex; /*Maquetar con flex*/
+    justify-content: space-between; /*Espacio entre fotos*/
+    gap: 1rem; /* Separación entre los elementos */
+    width: 80%; /*ancho*/
+}
+
+.service {
+    width: 30%;
+    height: 35rem;
+    transition: transform 0.3s ease; /*Transicion para hover*/
+}
+
+.service__title {
+    font-family: 'Prata', serif; /*Tipo de letra*/
+    text-align: start;
+}
+ 
+.service:hover {
+    transform: translateY(-0.05rem) scale(1.02); /* Mueve la imagen hacia arriba y la agranda un poco */
+}
+
+.service__image {
+    width: 100%; /*ancho proporcional*/
+    height: 100%; /* Altura de imagen proporcional */
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
