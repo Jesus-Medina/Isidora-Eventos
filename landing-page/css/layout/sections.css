@@ -4,13 +4,6 @@
 
 */
 
-.services {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: antiquewhite;
-}
-
 .about {
     display: flex;
     justify-content: center;
