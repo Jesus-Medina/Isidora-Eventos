@@ -31,12 +31,12 @@
 }
 
 #facebook-icon:hover {
-    content: url("../../assets/images/facebook-hover.webp");
+    content: url("../../../assets/images/facebook-hover.webp");
     transform: scale(1.1);
 }
 
 #instagram-icon:hover {
-    content: url("../../assets/images/instagram-hover.webp");
+    content: url("../../../assets/images/instagram-hover.webp");
     transform: scale(1.1);
 }
 
