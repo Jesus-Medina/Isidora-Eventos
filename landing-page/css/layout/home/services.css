@@ -1,0 +1,26 @@
+@import url('css/base/colors.css');
+@import url('css/theme/typography.css');
+
+/*Contenedor SECCION SERVICIOS*/
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: rgb(255, 255, 255);
+}
+
+/*Contenedor PADRE*/
+.container-padre{
+    background-color: var(--color-bg-overlay);
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+

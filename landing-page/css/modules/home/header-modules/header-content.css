@@ -1,0 +1,52 @@
+/*
+
+    HEADER CONTENT STYLES
+
+*/
+
+.header__content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50%;
+    color: white;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    min-width: 60%;
+    max-width: 90%;
+    height: 100%;
+}
+
+.header__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header__text {
+    font-family: "Prata", serif;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+}
+
+.header__vertical-line {
+    width: 2px;
+    min-height: 50px;
+    height: 20%;
+    border: none;
+    background-color: white;
+    margin: 0;
+}
