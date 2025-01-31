@@ -71,3 +71,7 @@
 .whatsapp-container a img:hover {
     transform: scale(1.1);
 }
+
+.gallery-item:hover {
+    transform: translateY(-0.05rem) scale(1.02); /* Mueve la imagen hacia arriba y la agranda un poco */
+}
