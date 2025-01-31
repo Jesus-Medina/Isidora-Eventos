@@ -10,11 +10,12 @@
 
     <!-- Theme CSS -->
 
-
     <!-- Layout CSS -->
     <link rel="stylesheet" href="css/layout/header.css">
     <link rel="stylesheet" href="css/layout/navbar.css">
     <link rel="stylesheet" href="css/layout/sections.css">
+    <link rel="stylesheet" href="css/layout/services.css">
+
 
     <!-- Modules CSS -->
     <link rel="stylesheet" href="css/modules/header-modules/header-content.css">
@@ -22,6 +23,10 @@
     <link rel="stylesheet" href="css/modules/header-modules/social-menu.css">
     <link rel="stylesheet" href="css/modules/header-modules/mobile-contact.css">
     <link rel="stylesheet" href="css/modules/header-modules/central-menu.css">
+    <link rel="stylesheet" href="css/modules/services-modules/services-description.css">
+    <link rel="stylesheet" href="css/modules/services-modules/services-gallery-images.css">
+    <link rel="stylesheet" href="css/modules/services-modules/services-title.css">
+
 
     <!-- State CSS -->
     <link rel="stylesheet" href="css/state/menu-active.css">
@@ -44,12 +49,10 @@
 
     <div class="scroll-container" data-simplebar>
         <section class="header" id="home">
-            <!-- Video como fondo -->
-            <video class="header__video-background" autoplay muted loop>
+            <video class="header__video-background" > <!--autoplay muted loop-->
                 <source src="assets/videos/header-video-1.webm" type="video/mp4">
                 Tu navegador no soporta la reproducción de video.
-            </video>
-
+            </video> 
             <div class="navbar-wrapper">
                 <nav class="navbar">
                     <div class="navbar__social-media-container">
@@ -112,13 +115,41 @@
             </div>
         </section>
 
+        <!--S E C C I O N    S E R V I C I O S-->
         <section class="services" id="services">
-            <h1 class="section__title">Services</h1>
+            <div class="container-padre">
+                <div class="section__title">
+                    <hr class="title__line">
+                    <h1 class="title">¿A qué nos dedicamos?</h1>
+                    <hr class="title__line">
+                </div>
+                <p class="section__description">
+                    Nos especializamos en ofrecer servicios de banquetería y coctelería, con menús personalizados y estandar. También contamos con desayunos ideales para reuniones matutinas, que incluyen bebidas calientes, jugos naturales y una selección de bocados frescos, así como almuerzos cuidadosamente preparados, pensados para eventos corporativos o celebraciones especiales.
+                </p>
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img class="gallery-image" src="assets/images/services-catering.webp">
+                        <h3 class="gallery-title">Catering</h3>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="gallery-image" src="assets/images/services-coffe-break.webp">
+                        <h3 class="gallery-title">Coffee Break</h3>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="gallery-image" src="assets/images/services-coctel.webp">
+                        <h3 class="gallery-title">Coctelería</h3>
+                    </div>
+                </div>
+            </div>
         </section>
+    
+        <!--S E C C I O N    S O B R E    N O S O T R O S-->
 
         <section class="about" id="about">
             <h1 class="section__title">About</h1>
         </section>
+
+        <!--S E C C I O N    F O O T E R-->
 
         <section class="footer" id="footer">
             <div class="contact__container">

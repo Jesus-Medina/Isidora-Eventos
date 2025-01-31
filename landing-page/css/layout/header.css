@@ -24,6 +24,7 @@
     height: 100%;
     object-fit: cover; /* Escala el video para que cubra todo el fondo */
     z-index: -1; /* Coloca el video detrás del contenido */
+    filter: brightness(0.5);  /*Reduce el brillo al 50%*/
 }
 
 .header::before {
