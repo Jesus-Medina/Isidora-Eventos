@@ -1,0 +1,29 @@
+/*container T I T U L O*/
+
+.section__title {
+    display: flex; /*Alinear automáticamente en una fila todos los elementos del componente*/
+    align-items: center; /* Centra horizontalmente */
+    gap: 1rem; /* Espaciado entre las líneas y el título */
+    justify-content: center;
+    width: 70%;
+    height: 10%;
+}
+
+/*titulo*/
+
+.title{
+    font-family: 'Prata', serif; /* Tipo de letra */
+    font-size: clamp(0.5rem,2vw,2.5rem); /* Tamaño del título */
+    color: #333; /* Color del texto */
+    width: 43%;
+    text-align: center; /*centra horizontalmente*/
+}
+
+/*lineas a los lados de titulo*/
+
+.title__line{
+    width: 33%; /* Longitud de la línea */
+    height: 0.15rem; /* Grosor de la línea */
+    background-color: goldenrod; /* Color de la línea */
+    border: none; /* Elimina el borde predeterminado de <hr> */
+}
