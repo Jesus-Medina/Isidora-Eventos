@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/layout/home/navbar.css">
     <link rel="stylesheet" href="css/layout/home/sections.css">
     <link rel="stylesheet" href="css/layout/home/services.css">
+    <link rel="stylesheet" href="css/layout/home/about-us.css">
 
 
     <!-- Modules CSS -->
@@ -26,7 +27,8 @@
     <link rel="stylesheet" href="css/modules/home/services-modules/services-description.css">
     <link rel="stylesheet" href="css/modules/home/services-modules/services-gallery-images.css">
     <link rel="stylesheet" href="css/modules/home/services-modules/services-title.css">
-
+    <link rel="stylesheet" href="css/modules/home/about_us-modules/about_us-content.css">
+    <link rel="stylesheet" href="css/modules/home/about_us-modules/about_us-empty_container.css">
 
     <!-- State CSS -->
     <link rel="stylesheet" href="css/state/home/home-page-states.css">
@@ -50,7 +52,7 @@
 
     <div class="scroll-container" data-simplebar>
         <section class="header" id="home">
-            <video class="header__video-background" autoplay muted loop>
+            <video class="header__video-background" ><!--autoplay muted loop-->
                 <source src="assets/videos/header-video-1.webm" type="video/mp4">
                 Tu navegador no soporta la reproducción de video.
             </video> 
@@ -147,7 +149,17 @@
         <!--S E C C I O N    S O B R E    N O S O T R O S-->
 
         <section class="about" id="about">
-            <h1 class="section__title">About</h1>
+          <div class="container__content-about-us">
+                <div class="container__title-about-us">
+                    <h1 class="title__about-us">Nosotros</h1>
+                </div>
+                <div class="container__description-about-us">
+                    <p>En nuestra empresa, nos dedicamos a transformar tus reuniones y eventos en experiencias únicas a través de nuestro servicio profesional de coffee break y banquetería. Con más de 15 años de experiencia, hemos trabajado junto a instituciones de prestigio, ofreciendo calidad, confianza y atención personalizada.</p>
+                    <p class="space__descripcion-about-us">
+                    <p>Nuestros servicios están diseñados para reuniones, conferencias y eventos sociales, con menús personalizados que se adaptan a tus necesidades. Nos especializamos en brindar atención impecable y cuidar cada detalle, asegurando que cada ocasión sea memorable. Confía en nosotros para hacer de tu evento un momento inolvidable.</p>
+                </div>
+          </div>  
+          <div class="empty__container-about-us"></div>  
         </section>
 
         <!--S E C C I O N    F O O T E R-->
