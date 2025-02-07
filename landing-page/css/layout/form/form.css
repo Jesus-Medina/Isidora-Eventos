@@ -1,0 +1,122 @@
+@import url('../css/theme/typography.css');
+
+
+.header__container {
+
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+
+}
+.header__content{
+
+
+    height: 90%;
+
+}
+
+.div_form{
+
+    height: 90%;
+    width: 90%;
+    background-color: tomato;
+}
+
+
+.form_title{
+
+    height: 10%;
+    width: 90%;
+    background-color: aqua;
+}
+
+.form_fields {
+    height: 60%;
+    width: 70%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén en columna */
+    justify-content: center; /* Centra verticalmente */
+
+}
+
+.form-container {
+    width: 100%;
+    max-width: 100%; /* Ajusta el ancho máximo si lo deseas */
+    margin: 0 auto; /* Centrar en la página */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+     /* Asegura que el formulario ocupe toda la pantalla */
+}
+
+
+label {
+    width: 60%;
+    text-align: left; /* Asegura que el texto del label esté alineado a la izquierda */
+    margin-top: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+input, textarea {
+    width: 60%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+   
+}
+
+button {
+    margin: 5px auto; /* Centra los elementos horizontalmente */
+    width: 15%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.title_form{
+    width: 60%;
+    text-align: center; /* Asegura que el texto del label esté alineado a la izquierda */
+    margin-top: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+.header__button {
+
+    margin: 5%
+
+
+}
+
+.form__container label{
+
+    font-family: 'Prata', serif;
+
+}
+
+.title__form-container h1 {
+
+    font-family: 'Prata', serif;
+
+
+}
