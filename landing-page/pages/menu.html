@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <!-- Base CSS -->
+    <link rel="stylesheet" href="../css/base/global.css">
+
+    <!-- Theme CSS -->
+
+    <!-- Layout CSS -->
+    <link rel="stylesheet" href="../css/layout/home/header.css">
+    <link rel="stylesheet" href="../css/layout/home/navbar.css">
+    <link rel="stylesheet" href="../css/layout/home/sections.css">
+
+    <!-- Modules CSS -->
+    <link rel="stylesheet" href="../css/modules/home/header-modules/header-content.css">
+    <link rel="stylesheet" href="../css/modules/home/header-modules/buttons.css">
+    <link rel="stylesheet" href="../css/modules/home/header-modules/social-menu.css">
+    <link rel="stylesheet" href="../css/modules/home/header-modules/mobile-contact.css">
+    <link rel="stylesheet" href="../css/modules/home/header-modules/central-menu.css">
+    <link rel="stylesheet" href="../css/modules/carousel/carousel.css">
+
+    <!-- State CSS -->
+    <link rel="stylesheet" href="../css/state/home/home-page-states.css">
+
+    <!-- SimpleBar CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.css">
+    <!-- SimpleBar JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js" defer></script>
+
+
+</head>
+
+<body>
+    <!-- WhatsApp Container -->
+    <div class="whatsapp-container">
+        <a href="#">
+            <img class="whatsapp-container__image" src="../assets/images/whatsapp.webp" alt="">
+        </a>
+    </div>
+
+    <div class="scroll-container" data-simplebar>
+        <section class="header" id="home">
+
+            <img class="header__image-background" src="../assets/images/header-image-1.webp" alt="">
+            <div class="navbar-wrapper">
+                <nav class="navbar scrolled">
+                    <div class="navbar__social-media-container">
+                        <ul class="navbar__social-menu-list">
+                            <li class="navbar__social-menu-item">
+                                <a href="#">
+                                    <img class="navbar__social-menu-icon" id="facebook-icon"
+                                        src="../assets/images/facebook-icon.webp" alt="">
+                                </a>
+                            </li>
+                            <li class="navbar__social-menu-item">
+                                <a href="#">
+                                    <img class="navbar__social-menu-icon" id="instagram-icon"
+                                        src="../assets/images/instagram-icon.webp" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="navbar__central-menu-container">
+                        <ul class="navbar__menu">
+                            <li class="navbar__menu-item"><a href="#home">Inicio</a></li>
+                            <li class="navbar__menu-item"><a href="#services">Menu</a></li>
+                            <li class="navbar__menu-logo">
+                                <a href="#" class="navbar__logo-container">
+                                    <img class="navbar__logo-image" src="../assets/images/logo.webp" alt="">
+                                </a>
+                            </li>
+                            <li class="navbar__menu-item"><a href="#about">Nosotros</a></li>
+                            <li class="navbar__menu-item"><a href="#footer">Contacto</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="navbar__mobile-number-container">
+                        <a href="" class="navbar__mobile-number-link">
+                            <div class="navbar__mobile-number">
+                                <img class="navbar__mobile-number-icon" src="../assets/images/mobile.webp" alt="">
+                                <p class="navbar__mobile-number-text">+56 9 1234 5678</p>
+                            </div>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            <!--INICIO CARRUSEL-->
+            <section class="carousel" id="menu">
+                <div class="carousel__container">
+                    <!-- Slide 1 -->
+                    <div class="carousel__slide active">
+                        <div class="carousel__content">
+                            <h2 class="carousel__title">Menú 1</h2>
+                            <p class="carousel__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi nisi eum? Eos qui ipsa deleniti vel mollitia voluptatibus reprehenderit, soluta sit expedita temporibus fugiat cumque quia ad deserunt voluptatem?.</p>
+                            <button class="carousel__button">Ver siguiente menú</button>
+                        </div>
+                    </div>
+    
+                    <!-- Slide 2 -->
+                    <div class="carousel__slide">
+                        <div class="carousel__content">
+                            <h2 class="carousel__title">Menú 2</h2>
+                            <p class="carousel__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi nisi eum? Eos qui ipsa deleniti vel mollitia voluptatibus reprehenderit, soluta sit expedita temporibus fugiat cumque quia ad deserunt voluptatem?.</p>
+                            <button class="carousel__button">Ver siguiente menú</button>
+                        </div>
+                    </div>
+    
+                    <!-- Slide 3 -->
+                    <div class="carousel__slide">
+                        <div class="carousel__content">
+                            <h2 class="carousel__title">Menú 3</h2>
+                            <p class="carousel__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi nisi eum? Eos qui ipsa deleniti vel mollitia voluptatibus reprehenderit, soluta sit expedita temporibus fugiat cumque quia ad deserunt voluptatem?.</p>
+                            <button class="carousel__button">Ver siguiente menú</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+        </section>
+
+    </div>
+    <script src="../js/main.js"></script>
+    <script type="module" src="../js/components/carousel.js"></script>
+
+</body>
+
+</html>
