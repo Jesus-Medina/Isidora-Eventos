@@ -15,6 +15,7 @@
 html, body {
     height: 100%;
     overflow: hidden;
+    font-family: "Prata", serif;
 }
 
 .scroll-container {
@@ -30,7 +31,6 @@ html, body {
 }
 
 section {
-    height: 100vh; /* ponemos valor referencial ya que la altura esta brindada por el javascript */
     scroll-snap-align: end;
     scroll-snap-stop: always;
 }
