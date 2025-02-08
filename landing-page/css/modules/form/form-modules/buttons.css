@@ -1,0 +1,41 @@
+/* 
+
+    BUTTONS STYLES
+
+*/
+
+
+
+/* WHATSAPP BUTTON */
+.whatsapp-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.whatsapp-container__image {
+    width: 60px;
+    height: 60px;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.432));
+}
+
+/* Header Button Styles */
+
+.form__button {
+    border-radius: 10px;
+    background-color: #800000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
+}
+
+.form__button-link {
+    text-decoration: none;
+    color: white;
+    font-family: "Prata", serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.form__button-text {
+    padding: 1rem 2rem;
+}
