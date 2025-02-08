@@ -17,3 +17,8 @@ width: 40%;
 background-color: blue;
 
 }
+
+.main__content {
+    min-height: 100vh;
+    
+}
