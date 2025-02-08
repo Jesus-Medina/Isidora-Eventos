@@ -8,3 +8,33 @@
     z-index: -1; /* Coloca el video detrás del contenido */
     filter: brightness(0.55);  /*Reduce el brillo al 55%*/
 }
+
+.main__container {
+
+height: 100%;
+
+}
+
+.title__form-content {
+
+
+    height: 20%;
+    background-color: green;
+    display: flex; /* Establece un contenedor flex */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+
+}
+
+.content__form {
+
+    height: 80%;
+    background-color: yellow;
+    display: flex; /* Establece un contenedor flex */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    
+    
+
+
+}

@@ -1,0 +1,19 @@
+
+.form__container{
+    background-color: red; 
+    height: 90vh;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.form__content {
+
+height: 80%;
+width: 40%;
+
+
+
+background-color: blue;
+
+}
