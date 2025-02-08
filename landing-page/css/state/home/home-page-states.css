@@ -1,10 +1,5 @@
-/*
 
-    MENU ACTIVE STYLES
-
-*/
-
-
+/* HOME PAGE STATES STYLES */
 
 /* Estilo del enlace activo cuando la navbar NO está colapsada */
 .navbar__menu-item a.is-active {
@@ -51,11 +46,11 @@
 }
 
 /* Hover From the contact button in the Header */
-.header__button {
+.standar__button {
     transition: background-color 0.2s ease-out;
 }
 
-.header__button:hover {
+.standar__button:hover {
     background-color: black;
 }
 

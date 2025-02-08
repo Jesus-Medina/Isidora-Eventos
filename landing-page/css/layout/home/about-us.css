@@ -1,4 +1,6 @@
-/* Contenedor SOBRE NOSOTROS */
+
+/* ABOUT US CONTAINER LAYOUT STYLES */
+
 .about {
     display: flex;
     justify-content: flex-end; /* Alinea el contenido hacia la derecha */
