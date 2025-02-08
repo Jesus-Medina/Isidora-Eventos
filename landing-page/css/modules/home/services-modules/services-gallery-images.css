@@ -1,3 +1,6 @@
+
+/* SERVICES GALLERY STYLES */
+
 .gallery-container {
     display: flex; /*Maquetar con flex*/
     gap: 0.5vw; /*Espacio entre*/
