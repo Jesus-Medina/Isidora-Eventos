@@ -1,24 +1,57 @@
 
 .form__container{
-    background-color: red; 
+
+    background-color: transparent; 
     height: 90vh;
+
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-}
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Pone los div en columnas */
 
-.form__content {
-
-height: 80%;
-width: 40%;
-
-
-
-background-color: blue;
+  
+    font-family: "Prata", serif;
+    color: white;
 
 }
+
+.form__video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Escala el video para que cubra todo el fondo */
+    z-index: -1; /* Coloca el video detrás del contenido */
+    filter: brightness(0.55);  /*Reduce el brillo al 55%*/
+}
+
+
+
 
 .main__content {
     min-height: 100vh;
     
 }
+
+/*
+
+ <div class="input__group">
+                        
+                            
+                            <label for="name">Nombre:</label>
+                            <input type="text" name="name" id="name" >
+
+                            <label for="phone">Telefono:</label>
+                            <input type="tel" name="phone" id="phone">
+
+                            <label for="email">Email:</label>
+                            <input type="email" name="mail" id="mail" >
+
+                            <label for="description">Email:</label>
+                            <textarea name="description" id="description" cols="30" rows="5"></textarea>                    
+                        
+                            <input class="btn" type="submit" value="Enviar">
+                    </div>
+                    
+                    */

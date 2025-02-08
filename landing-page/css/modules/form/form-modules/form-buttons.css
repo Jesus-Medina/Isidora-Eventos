@@ -23,9 +23,12 @@
 /* Header Button Styles */
 
 .form__button {
+    
     border-radius: 10px;
     background-color: #800000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
+
+    
 }
 
 .form__button-link {
@@ -38,4 +41,15 @@
 
 .form__button-text {
     padding: 1rem 2rem;
+    text-align: center;
+}
+
+.button__main__container {
+
+    width: 100%;
+    margin-top: 5% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
