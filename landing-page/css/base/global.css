@@ -1,8 +1,5 @@
-/* 
 
-    GLOBAL STYLES AND LAYOUT
-
-*/
+/* BASE GLOBAL STYLES */
 
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Prata&display=swap');
 
@@ -15,6 +12,7 @@
 html, body {
     height: 100%;
     overflow: hidden;
+    font-family: "Prata", serif;
 }
 
 .scroll-container {
@@ -30,7 +28,6 @@ html, body {
 }
 
 section {
-    height: 100vh; /* ponemos valor referencial ya que la altura esta brindada por el javascript */
     scroll-snap-align: end;
     scroll-snap-stop: always;
 }

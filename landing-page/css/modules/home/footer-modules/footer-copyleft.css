@@ -1,0 +1,21 @@
+
+/* FOOTER COPYLEFT STYLES */
+
+.copyleft__content {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyleft__content a, .copyleft__content h1{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8vw;
+}
+
+.copyleft__content .copyleft__credits {
+    color: #800000;
+    text-decoration: underline;
+}

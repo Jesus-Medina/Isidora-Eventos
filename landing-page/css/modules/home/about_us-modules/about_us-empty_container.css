@@ -1,0 +1,11 @@
+
+/* ABOUT US EMPTY CONTAINER STYLES */
+
+/* Contenedor vacío para superposición */
+.empty__container-about-us {
+    width: 30vw; /* Ancho del rectángulo */
+    height: 100%; /* Altura del rectángulo */
+    position: absolute; /* Asegura que sea independiente del flujo normal */
+    z-index: 1; /* Detrás del contenido principal */
+    background-color: white;
+}

@@ -1,0 +1,34 @@
+
+/* FOOTER ATENTION CONTENT MEDIA STYLES */
+
+.footer_atention-content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.footer_atention-content hr {
+    flex-grow: 1;
+    height: 0.1rem; /* Grosor de la línea */
+    background-color: white; /* O el color que prefieras */
+    border: none; /* Elimina cualquier borde predeterminado */
+}
+
+.footer__atention-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__atention-text h1{
+    font-size: 2vw;
+}
+
+.footer__atention-text h2{
+    font-size: 1vw;
+}

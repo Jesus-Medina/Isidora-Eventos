@@ -1,0 +1,75 @@
+
+/* FOOTER CONTAINER LAYOUT STYLES */
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Contenedor SECCION DENTRO DEL FOOTER CONTACT*/
+.contact__container {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Contenedor SECCION DENTRO DEL FOOTER LOGO*/
+.footer__logo-container {
+    position: absolute;
+    top: 50%; /* Lo coloca en el centro del footer */
+    left: 50%; /* Lo coloca en el centro horizontal */
+    transform: translate(-50%, -55%); /* Ajusta el centro real */
+    width: 7rem;
+    height: 7rem;
+    z-index: 10; /* Asegura que esté por encima */
+}
+
+/*Contenedor SECCION DENTRO DEL FOOTER HORARIO DE ATENCION*/
+.footer__atention-container {
+    position: relative;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 1rem;
+}
+
+/*Contenedor FILTRO PARA EL CONTENEDOR HORARIO DE ATENCION*/
+.footer__atention-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../assets/images/footer-image.webp");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.5);
+    z-index: -1; /* Para que el contenido siga visible */
+}
+
+/*Contenedor SECCION SOCIAL MEDIA DENTRO DEL CONTENEDOR HORARIO DE ATENCION*/
+.footer__atention-social-media {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/*Contenedor SECCION DENTRO DEL FOOTER COPYLEFT*/
+.copyleft__container {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}

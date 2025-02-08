@@ -1,8 +1,8 @@
-@import url('css/base/colors.css');
-@import url('css/theme/typography.css');
+
+/* SERVICES CONTAINER LAYOUT STYLES */
 
 /*Contenedor SECCION SERVICIOS*/
-.services {
+.services{
     display: flex;
     align-items: center;
     justify-content: center; 
