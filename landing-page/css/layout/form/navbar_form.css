@@ -1,0 +1,37 @@
+
+/* 
+    NAVIGATION LAYOUT STYLES 
+*/
+
+/*div que contiene toda la navbar*/
+.navbar__main-container {
+
+    height: 10vh;
+    width: 100vw;
+
+    background-color: transparent;
+
+}
+
+
+/* Agregamos un div contenedor para el navbar */
+.navbar-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Mantiene el espacio original */
+}
+
+/* Estilos actualizados para el navbar */
+.navbar {
+    position: fixed; /* Cambiamos a fixed */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Aumentamos el z-index para asegurar que esté por encima */
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; /* Aseguramos que sea transparente */
+}
+

@@ -1,0 +1,25 @@
+.navbar__menu-item a:hover {
+    border-bottom: 4px solid #800000;
+}
+/* Mobile Number from the Navbar Hover*/
+.navbar__mobile-number {
+    transition: all 0.3s ease;
+}
+
+.navbar__mobile-number:hover {
+    background-color: rgba(245, 245, 245, 0.432);
+    transform: scale(1.01);
+}
+
+/* Whatsapp Button Hover */
+.whatsapp-container {
+    transition: bottom 0.3s ease-out;
+}
+
+.whatsapp-container__image {
+    transition: transform 0.3s ease-out;
+}
+
+.whatsapp-container a img:hover {
+    transform: scale(1.1);
+}

@@ -13,13 +13,23 @@
     <!-- Theme CSS -->
  
     <!-- Layout CSS -->
-    <link rel="stylesheet" href="../css/layout/form/form-header.css">
+    <link rel="stylesheet" href="../css/layout/form/form.css">
+    <link rel="stylesheet" href="../css/layout/form/navbar_form.css">
+    
  
  
      <!-- Modules CSS -->
     <link rel="stylesheet" href="../css/modules/form/form-buttons.css">
+    <link rel="stylesheet" href="../css/modules/form/form-title-content.css">
+    <link rel="stylesheet" href="../css/modules/form/form-central-menu.css">
+    <link rel="stylesheet" href="../css/modules/form/form-mobile-contact.css">
+    <link rel="stylesheet" href="../css/modules/form/form-social-menu.css">
+
+
+
  
      <!-- State CSS -->
+      <link rel="stylesheet" href="../css/state/form/form-states.css">
 
      <!-- SimpleBar CSS -->
 
@@ -30,15 +40,61 @@
 
 </head>
 <body>
+
+    <div class="whatsapp-container">
+        <a href="#">
+            <img class="whatsapp-container__image" src="../assets/images/whatsapp.webp" alt="">
+        </a>
+    </div>
     
     <video class="header__form_video-background" autoplay muted loop>
         <source src="../assets/videos/header-video-1.webm" type="video/mp4">
         Tu navegador no soporta la reproducción de video.
     </video> 
 
-    <nav class="navbar">
+    <div class="navbar__main-container ">
+        <div class="navbar-wrapper">
+            <nav class="navbar">
+                <div class="navbar__social-media-container">
+                    <ul class="navbar__social-menu-list">
+                        <li class="navbar__social-menu-item">
+                            <a href="#">
+                                <img class="navbar__social-menu-icon" id="facebook-icon" src="../assets/images/facebook-icon.webp" alt="">
+                            </a>
+                        </li>
+                        <li class="navbar__social-menu-item">
+                            <a href="#">
+                                <img class="navbar__social-menu-icon" id="instagram-icon" src="../assets/images/instagram-icon.webp" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-    </nav>
+                <div class="navbar__central-menu-container">
+                    <ul class="navbar__menu">
+                        <li class="navbar__menu-item"><a href="#home">Inicio</a></li>
+                        <li class="navbar__menu-item"><a href="#services">Servicios</a></li>
+                        <li class="navbar__menu-logo">
+                            <a href="#" class="navbar__logo-container">
+                                <img class="navbar__logo-image" src="../assets/images/logo.webp" alt="">
+                            </a>
+                        </li>
+                        <li class="navbar__menu-item"><a href="#about">Nosotros</a></li>
+                        <li class="navbar__menu-item"><a href="#footer">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="navbar__mobile-number-container">
+                    <a href="" class="navbar__mobile-number-link">
+                        <div class="navbar__mobile-number">
+                            <img class="navbar__mobile-number-icon" src="../assets/images/mobile.webp" alt="">
+                            <p class="navbar__mobile-number-text">+56 9 1234 5678</p>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </div>
 
     <div class="main__container">
         
@@ -59,9 +115,9 @@
                 
                 <textarea name="" id="Descripcion"  ></textarea>
 
-                <div class="header__form-button">
-                    <a href="#cotizar" class="header__form-button-link">
-                        <p class="header__form-button-text">Contactanos</p>
+                <div class="form__button">
+                    <a href="#cotizar" class="form__button-link">
+                        <p class="form__button-text">Enviar</p>
                     </a>
                 </div>
             </form>
