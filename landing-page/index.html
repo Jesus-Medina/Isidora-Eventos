@@ -30,18 +30,14 @@
 
     <!-- Estilos de Layout -->
     <link rel="stylesheet" href="css/layout/home/header.css">
-    <link rel="stylesheet" href="css/layout/home/navbar.css">
-    <link rel="stylesheet" href="css/layout/home/sections.css">
     <link rel="stylesheet" href="css/layout/home/services.css">
     <link rel="stylesheet" href="css/layout/home/about-us.css">
-    <link rel="stylesheet" href="css/layout/home/footer.css">
+    <link rel="stylesheet" href="css/layout/global/footer.css">
+    <link rel="stylesheet" href="css/layout/home/form.css">
 
     <!-- Módulos CSS -->
     <!-- Header -->
     <link rel="stylesheet" href="css/modules/home/header-modules/header-content.css">
-    <link rel="stylesheet" href="css/modules/home/header-modules/social-menu.css">
-    <link rel="stylesheet" href="css/modules/home/header-modules/mobile-contact.css">
-    <link rel="stylesheet" href="css/modules/home/header-modules/central-menu.css">
 
     <!-- Servicios -->
     <link rel="stylesheet" href="css/modules/home/services-modules/services-description.css">
@@ -53,15 +49,16 @@
     <link rel="stylesheet" href="css/modules/home/about_us-modules/about_us-empty_container.css">
 
     <!-- Footer -->
-    <link rel="stylesheet" href="css/modules/home/footer-modules/footer-contact.css">
-    <link rel="stylesheet" href="css/modules/home/footer-modules/footer-bridge-logo.css">
-    <link rel="stylesheet" href="css/modules/home/footer-modules/footer-atention.css">
-    <link rel="stylesheet" href="css/modules/home/footer-modules/footer-copyleft.css">
-    <link rel="stylesheet" href="css/modules/home/footer-modules/footer-atention-social-media.css">
+    <link rel="stylesheet" href="css/modules/global/footer-modules/footer-contact.css">
+    <link rel="stylesheet" href="css/modules/global/footer-modules/footer-bridge-logo.css">
+    <link rel="stylesheet" href="css/modules/global/footer-modules/footer-atention.css">
+    <link rel="stylesheet" href="css/modules/global/footer-modules/footer-copyleft.css">
+    <link rel="stylesheet" href="css/modules/global/footer-modules/footer-atention-social-media.css">
 
     <!-- Módulos Globales -->
     <link rel="stylesheet" href="css/modules/global/whatsapp-button.css">
     <link rel="stylesheet" href="css/modules/global/standar-button.css">
+    <link rel="stylesheet" href="css/modules/global/navbar.css">
 
     <!-- Estados -->
     <link rel="stylesheet" href="css/state/home/home-page-states.css">
@@ -122,16 +119,16 @@
                                 </a>
                             </li>
                             <li class="navbar__menu-item"><a href="#about">Nosotros</a></li>
-                            <li class="navbar__menu-item"><a href="#footer">Contacto</a></li>
+                            <li class="navbar__menu-item"><a href="#contact">Contacto</a></li>
                         </ul>
                     </div>
 
                     <!-- Contacto móvil -->
                     <div class="navbar__mobile-number-container">
-                        <a href="" class="navbar__mobile-number-link">
+                        <a href="pages/menu.html" class="navbar__mobile-number-link">
                             <div class="navbar__mobile-number">
-                                <img class="navbar__mobile-number-icon" src="assets/images/mobile.webp" alt="Teléfono">
-                                <p class="navbar__mobile-number-text">+56 9 1234 5678</p>
+                                <img class="navbar__mobile-number-icon" src="assets/images/menu.png" alt="Teléfono">
+                                <p class="navbar__mobile-number-text">Ver Menu</p>
                             </div>
                         </a>
                     </div>
@@ -213,6 +210,63 @@
             <div class="empty__container-about-us"></div>
         </section>
 
+        <section class="form" id="contact">
+            <div class="form__container">
+                <div class="form__side-items-container">
+                    <div class="form__title">
+                        <h1>Cotiza con nosotros</h1>
+                        <p>Estaremos encantados de atenderte por cualquiera de nuestros canales.</p>
+                    </div>
+
+                    <div class="form__item">
+                        <img src="assets/images/phone.png" alt="">
+                        <p>+56 9 1234 5678</p>
+                    </div>
+                    <div class="form__item">
+                        <img src="assets/images/instagram-icon.webp" alt="">
+                        <p>@Doña Isidora</p>
+                    </div>
+                    <div class="form__item">
+                        <img src="assets/images/facebook-icon.webp" alt="">
+                        <p>@Doña isidora</p>
+                    </div>
+                    <div class="form__item">
+                        <img src="assets/images/email.png" alt="">
+                        <p>Jdiosc@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="form__form-container">
+                    <h1>Envíanos un mensaje</h1>
+                    <form class="form__group-container" action="" method="post">
+                        <div class="form__group">
+                            <label for="name">Nombre y Apellido</label>
+                            <input type="text" name="name" id="name" required placeholder="Felipe Cacerez">
+                        </div>
+                        <div class="form__group">
+                            <label for="email">Correo</label>
+                            <input type="email" name="email" id="email" required placeholder="felipe@gmail.com">
+                        </div>
+                        <div class="form__group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" name="phone" id="phone" required placeholder="+56 9 1234 5678">
+                        </div>
+                        <div class="form__group">
+                            <label for="message">Mensaje</label>
+                            <textarea name="message" id="message" required placeholder="Cuéntanos más detalles acerca de tu evento"></textarea>
+                        </div>
+                        <div class="form__group">
+                            <div class="standar__button-light-shadow" type="submit">
+                                <a href="#cotizar" class="standar__button-link">
+                                    <p class="standar__button-text">Contactanos</p>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
         <!-- =========== SECCIÓN FOOTER =========== -->
         <section class="footer" id="footer">
             <!-- Contenedor de contacto -->
@@ -222,7 +276,7 @@
                         <h1>Confíe en nosotros para ofrecer experiencias únicas que impresionen a sus clientes y colaboradores</h1>
                         <h2>Permita que nuestra experiencia impulse su imagen corporativa y consolide sus relaciones empresariales.</h2>
                     </div>
-                    <div class="standar__button">
+                    <div class="standar__button-light-shadow">
                         <a href="#cotizar" class="standar__button-link">
                             <p class="standar__button-text">Contactanos</p>
                         </a>
