@@ -1,0 +1,10 @@
+/* HEADER CONTAINER LAYOUT STYLES */
+
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+
+

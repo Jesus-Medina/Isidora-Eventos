@@ -2,6 +2,8 @@
 /* STANDAR BUTTON */
 
 .standar__button {
+    width: 10rem;
+    padding: 1rem 2rem;
     border-radius: 10px;
     background-color: #800000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
@@ -13,8 +15,15 @@
     font-family: "Prata", serif;
     font-weight: bold;
     font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.standar__button-text {
+.standar__button-light-shadow {
+    width: 10rem;
     padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: #800000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
