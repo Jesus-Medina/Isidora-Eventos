@@ -7,7 +7,7 @@ export const viewportUtils = {
 
         config.scrollContainer.style.height = `calc(var(--vh, 1vh) * 100)`;
         config.sections.forEach((section) => {
-            section.style.height = `calc(var(--vh, 1vh) * 88)`;
+            section.style.height = `calc(var(--vh, 1vh) * 89)`;
         });
         config.home.style.height = `calc(var(--vh, 1vh) * 100)`;
     },

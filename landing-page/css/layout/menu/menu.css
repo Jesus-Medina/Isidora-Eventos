@@ -1,0 +1,8 @@
+/* MENU CONTAINER LAYOUT STYLES */
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: blueviolet;
+}

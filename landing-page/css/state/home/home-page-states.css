@@ -41,7 +41,7 @@
 }
 
 .navbar__mobile-number:hover {
-    background-color: rgba(245, 245, 245, 0.432);
+    background-color: #800000;
     transform: scale(1.01);
 }
 

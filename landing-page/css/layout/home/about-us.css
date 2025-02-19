@@ -5,7 +5,7 @@
     display: flex;
     justify-content: flex-end; /* Alinea el contenido hacia la derecha */
     align-items: center; /* Centra el contenido verticalmente */
-    background-image: url('/landing-page/assets/images/us-view.webp'); /* Ruta a tu imagen de fondo */
+    background-image:  url('../../../assets/images/us-view.webp'); /* Ruta a tu imagen de fondo */
     background-size: cover; /* Asegura que la imagen cubra todo el área */
     background-position:center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
