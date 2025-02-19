@@ -5,4 +5,72 @@
     align-items: center;
     justify-content: center; 
     background-color: aquamarine;
+    overflow: hidden;
+}
+
+.experience__content {
+
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    background-color: blue;
+
+
+}
+
+
+.experience__title {
+
+
+    height: 13%;
+    width: 100%;
+    display: flex;
+
+    justify-content: start;
+    align-items: center;
+
+}
+
+.experience__cards {
+
+
+    height: 87%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: yellow;
+    
+
+}
+
+.item {
+
+
+    background-color: brown;
+    width: 32.5%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.card__title-description{
+
+    background-color: red;
+    width: 100%;
+
+}
+
+.image__container{
+
+    background-color: coral;
+
+
+}
+
+p {
+
+width: 100%;
+
 }
