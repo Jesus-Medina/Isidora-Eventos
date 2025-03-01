@@ -18,70 +18,9 @@
 
 }
 
-.experience__title-container {
 
 
-    height: 18%;
-    width: 100%;
-    display: flex;
 
-    justify-content: start;
-    align-items: center;
-
-}
-
-.line__start-container {
-
-    width: 7%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-
-}   
-
-.line__container {
-
-    background-color: transparent;
-    width: 60%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-
-}
-
-.experience__cards {
-
-
-    height: 82%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    background-color: transparent;
-    
-}
-
-.card__title-description{
-
-    background-color: transparent;
-    width: 100%;
-    height: 20%;
-
-    display: flex;
-    flex-direction: column;
-   
-}
-
-.image__container{
-
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items:start;
-    height: 60%;
-    width: 100%;
-
-}
 
 
 

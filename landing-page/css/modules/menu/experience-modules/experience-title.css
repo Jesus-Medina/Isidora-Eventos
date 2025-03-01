@@ -1,0 +1,60 @@
+.experience__title-container {
+
+
+    height: 18%;
+    width: 100%;
+    display: flex;
+
+    justify-content: start;
+    align-items: center;
+
+}
+
+
+.line__start-container {
+
+    width: 7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}   
+
+.line {
+
+    background-color: #A9910B;
+    height: 2%;
+    width: 100%;
+}
+
+.line__start {
+
+    width: 90%;
+}
+
+.experience__title {
+
+    font-size: 1.3vw;
+
+}
+
+
+
+.experience__title {
+    background-color: transparent;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.line__container {
+
+    background-color: transparent;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
