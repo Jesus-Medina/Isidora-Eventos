@@ -41,7 +41,6 @@
 
 
 .experience__title {
-    background-color: transparent;
     width: 33%;
     height: 100%;
     display: flex;
@@ -51,7 +50,6 @@
 
 .line__container {
 
-    background-color: transparent;
     width: 60%;
     height: 100%;
     display: flex;
