@@ -11,15 +11,6 @@
 }
 
 
-.line__start-container {
-
-    width: 7%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-
-}   
-
 .line {
 
     background-color: #A9910B;
@@ -32,6 +23,11 @@
     width: 90%;
 }
 
+.line__end {
+    margin-left: 1%;
+
+}
+
 .experience__title {
 
     font-size: 1.3vw;
@@ -40,19 +36,26 @@
 
 
 
-.experience__title {
-    width: 33%;
+.line__start-container {
+    width: 7%;
     height: 100%;
     display: flex;
     align-items: center;
+}
 
+.experience__title {
+    flex: 0 1 auto;  /* Permite que el ancho se ajuste automáticamente al contenido */
+    width: auto;  /* Alternativa para garantizar que crezca según el contenido */
+    min-width: min-content; /* Evita que el título se divida en dos líneas */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /* Evita saltos de línea */
 }
 
 .line__container {
-
-    width: 60%;
+    flex: 1; /* Ocupa el espacio restante */
     height: 100%;
     display: flex;
     align-items: center;
-
 }
