@@ -18,8 +18,7 @@
 
 }
 
-
-.experience__title {
+.experience__title-container {
 
 
     height: 18%;
@@ -40,18 +39,6 @@
 
 }   
 
-
-.title{
-    background-color: transparent;
-    width: 33%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-
-
-
-}
-
 .line__container {
 
     background-color: transparent;
@@ -60,19 +47,6 @@
     display: flex;
     align-items: center;
 
-}
-
-
-.line {
-
-    background-color: #A9910B;
-    height: 2%;
-    width: 100%;
-}
-
-.line__start {
-
-    width: 90%;
 }
 
 .experience__cards {
@@ -85,20 +59,6 @@
     align-items: stretch;
     background-color: transparent;
     
-
-}
-
-.item {
-
-
-    background-color: transparent;
-    width: 31%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    
-    
-
 }
 
 .card__title-description{
@@ -110,11 +70,6 @@
     display: flex;
     flex-direction: column;
    
-    
-
-    
-
-
 }
 
 .image__container{
@@ -130,46 +85,3 @@
 
 
 
-h2{
-    font-size: 1.3vw;
-
-}
-
-h3   {
-    font-size: 1.1vw;
-}
-
-p {
-
-    font-size: 1vw;
-    text-align: justify;
-
-}
-
-.imagen-card {
-
-    height: 95%;
-    width: 100%;
-
-    object-fit: cover;
-    object-position: center;
-
-}
-
-.image2{
-
-    align-items: end;
-}
-
-.sub__title{
-
-    height: 30%;
-    background-color: transparent;
-
-}
-
-.parraf{
-
-    height: 70%;
-    background-color: transparent;
-}
