@@ -49,3 +49,5 @@ const initializeApp = (simpleBarContentWrapper, simpleBar) => {
         }, 200)
     );
 };
+
+
