@@ -1,0 +1,37 @@
+.content-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    width: 70%;
+}
+
+.style-title{
+    font-family: 'Prata', serif; /* Tipo de letra */
+    font-size: clamp(2.5rem,4vw,4.8rem); /* Tamaño del título */
+    letter-spacing: 15%;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+.style-sub-title{
+    font-family: 'Prata', serif; /* Tipo de letra */
+    font-size: 2vw;
+    letter-spacing: 15%;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+.style-text{
+    font-family: 'Prata', serif; /* Tipo de letra */
+    font-size: 1.1vw;
+    letter-spacing: 15%;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
