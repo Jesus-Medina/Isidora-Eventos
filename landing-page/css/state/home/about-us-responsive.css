@@ -1,10 +1,10 @@
 /* ABOUT US RESPONSIVE STYLES */
 
 /* Móviles Pequeños: 320px - 480px */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
     .container__content-about-us {
         width: 85vw;
-        height: 58%;
+        height: 75%;
     }
 
     .container__title-about-us {
@@ -20,12 +20,12 @@
 
     .container__description-about-us {
         font-size: 3.2vw;
-        height: 75%;
+        height: 90%;
         width: 95%;
     }
 
     .empty__container-about-us {
-        width: 40vw;
+        width: 24vw;
         height: 100%;
     }
 }
@@ -63,12 +63,12 @@
 @media screen and (min-width: 641px) and (max-width: 768px) {
     .container__content-about-us {
         width: 85vw;
-        height: 80%;
+        height: 70%;
     }
 
     .container__title-about-us {
         width: 100%;
-        height: 14%;
+        height: 15%;
     }
 
     .title__about-us {
@@ -79,11 +79,11 @@
 
     .container__description-about-us {
         font-size: 2.8vw;
-        height: 90%;
+        height: 85%;
     }
 
     .empty__container-about-us {
-        width: 40vw;
+        width: 25vw;
         height: 100%;
     }
 }
@@ -91,8 +91,8 @@
 /* Tablets: 769px - 1024px */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .container__content-about-us {
-        width: 85vw;
-        height: 85%;
+        width: 75vw;
+        height: 65%;
     }
 
     .container__title-about-us {
@@ -108,11 +108,11 @@
 
     .container__description-about-us {
         font-size: 2.5vw;
-        height: 90%;
+        height: 85%;
     }
 
     .empty__container-about-us {
-        width: 40vw;
+        width: 25vw;
         height: 100%;
     }
 }
