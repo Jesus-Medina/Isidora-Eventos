@@ -1,0 +1,98 @@
+    /* Celular mediano */
+@media (min-width: 480px) and (max-width: 767px){
+    /* SERVICES CONTAINER LAYOUT STYLES */
+    .services{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        background-color: #ffffff;
+    }
+    
+    /*Contenedor PADRE*/
+    .container-padre{
+        background-color: var(--color-bg-overlay);
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0; /*NUEVO */
+    }
+    
+    /* SERVICES DESCRIPTION STYLES */
+    .section__description {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 0.9rem; /* NUEVO */
+        width: 90%; /* NUEVO */
+        height: 25%;
+        line-height: 1.5; /*NUEVO */
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    
+    /* SERVICES GALLERY STYLES */
+    .gallery-container {
+        display: flex; /* Se mantiene en fila */
+        gap: 0.5rem;
+        width: 100%; /* Mayor ancho para aprovechar espacio */
+        height: 65%;
+        overflow-x: auto; /* Permite scroll horizontal si es necesario */
+        padding-bottom: 1rem;
+        margin-top: 12%;
+    }
+    
+    /* container I N D I V I D I A L(GALERIA)*/
+    .gallery-item {
+        width: 33%;
+        height: 100%;
+        min-width: 130px; /* Garantiza un mínimo de ancho */
+        transition: transform 0.3s ease;
+    }
+    
+    /*titulo item de galeria*/
+    .gallery-title {
+        font-family: 'Prata', serif;
+        font-size: 0.9rem; /* Tamaño fijo para móvil */
+        text-align: center;
+        height: auto;
+        padding-top: 0.5rem;
+        width: 100%;
+    }
+    
+    /* Imágenes dentro de cada item */
+    .gallery-image {
+        width: 100%;
+        height: 65%; /* Altura fija para mantener consistencia */
+        border-radius: 0.125rem;
+        object-fit: cover;
+    } 
+    
+    /* SERVICES TITLE STYLES */
+    .section__title {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem; /* Reducido para móvil */
+        justify-content: center;
+        width: 90%; /* Más ancho para móvil */
+        height: 10%;
+        margin-bottom: 0.5rem;
+    }
+    
+    /*titulo*/
+    .title{
+        font-family: 'Prata', serif;
+        font-size: 1.4rem; /* Tamaño fijo para móvil */
+        color: #333;
+        width: 60%; /* Más ancho para móvil */
+        text-align: center;
+    }
+    
+    /*lineas a los lados de titulo*/
+    .title__line{
+        width: 28%; /* Reducido para móvil */
+        height: 0.15rem;
+        background-color: goldenrod;
+        border: none;
+    }
+}
