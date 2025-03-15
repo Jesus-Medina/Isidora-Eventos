@@ -1,6 +1,5 @@
    /* Celular pequeño (Mobile S - 320px) */
-@media (max-width: 479px) {
-    /* SERVICES CONTAINER LAYOUT STYLES */
+   @media (max-width: 479px) {
     .services {
         display: flex;
         align-items: center;
@@ -8,7 +7,6 @@
         background-color: #ffffff;
     }
     
-    /*Contenedor PADRE*/
     .container-padre {
         background-color: var(--color-bg-overlay);
         width: 95%;
@@ -16,52 +14,46 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 1.5rem 0; /* Reducido para pantallas más pequeñas */
+        padding: 1.5rem 0; 
     }
     
-    /* SERVICES DESCRIPTION STYLES */
     .section__description {
         font-family: 'Bai Jamjuree', sans-serif;
-        font-size: 0.8rem; /* Más pequeño para pantallas pequeñas */
+        font-size: 1rem; 
         width: 90%;
-        height: auto; /* Cambiado a auto para adaptarse al contenido */
+        height: auto; 
         line-height: 1.4;
         text-align: center;
         padding-top: 0.8rem;
-        padding-bottom: 1.2rem;
     }
     
-    /* SERVICES GALLERY STYLES */
     .gallery-container {
         display: flex;
-        flex-direction: row; /* Cambio a columna para pantallas pequeñas */
+        flex-direction: row; 
         gap: 0.5rem;
         width: 85%;
-        height: 1%; /* Altura automática */
-        overflow-x: visible; /* Ya no necesitamos scroll horizontal */
+        height: 1%; 
+        overflow-x: visible;
         padding-bottom: 1rem;
         margin-top: 2rem;
     }
     
-    /* container I N D I V I D I A L(GALERIA)*/
     .gallery-item {
-        width: 100%; /* Ancho completo */
+        width: 100%;
         height: auto;
-        min-width: auto; /* Ya no necesitamos mínimo ancho */
-        margin-bottom: 1.5rem; /* Espacio entre items */
+        min-width: auto; 
+        margin-bottom: 1.5rem; 
     }
     
-    /*titulo item de galeria*/
     .gallery-title {
         font-family: 'Prata', serif;
-        font-size: 1.1rem; /* Ajustado para móvil pequeño */
+        font-size: 1.1rem; 
         text-align: center;
         height: auto;
         padding-top: 0.5rem;
         width: 100%;
     }
     
-    /* Imágenes dentro de cada item */
     .gallery-image {
         width: 100%;
         height: 7rem; 
@@ -69,30 +61,27 @@
         object-fit: cover;
     } 
     
-    /* SERVICES TITLE STYLES */
     .section__title {
         display: flex;
         align-items: center;
-        gap: 0.3rem; /* Reducido para móvil pequeño */
+        gap: 0.3rem; 
         justify-content: center;
         width: 95%;
         height: auto;
         margin-bottom: 0.5rem;
-        flex-wrap: nowrap; /* Evita que se rompa en múltiples líneas */
+        flex-wrap: nowrap; 
     }
     
-    /*titulo*/
     .title {
         font-family: 'Prata', serif;
-        font-size: 1.1rem; /* Tamaño más pequeño */
+        font-size: 1.1rem;
         color: #333;
         width: 70%;
         text-align: center;
     }
     
-    /*lineas a los lados de titulo*/
     .title__line {
-        width: 20%; /* Reducido para móvil pequeño */
+        width: 20%; 
         height: 0.1rem;
         background-color: goldenrod;
         border: none;
@@ -103,7 +92,6 @@
    /* Celular mediano */
 
 @media (min-width: 480px) and (max-width: 767px){
-    /* SERVICES CONTAINER LAYOUT STYLES */
     .services{
         display: flex;
         align-items: center;
@@ -111,7 +99,6 @@
         background-color: #ffffff;
     }
     
-    /*Contenedor PADRE*/
     .container-padre{
         background-color: var(--color-bg-overlay);
         width: 95%;
@@ -119,92 +106,80 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 2rem 0; /*NUEVO */
+        padding: 2rem 0; 
     }
     
-    /* SERVICES DESCRIPTION STYLES */
     .section__description {
         font-family: 'Bai Jamjuree', sans-serif;
-        font-size: 0.9rem; /* NUEVO */
-        width: 90%; /* NUEVO */
+        font-size: 0.9rem; 
+        width: 90%;
         height: 25%;
-        line-height: 1.5; /*NUEVO */
+        line-height: 1.5; 
         text-align: center;
         padding-top: 1rem;
         padding-bottom: 1.5rem;
     }
     
-    /* SERVICES GALLERY STYLES */
     .gallery-container {
-        display: flex; /* Se mantiene en fila */
+        display: flex; 
         gap: 0.5rem;
-        width: 100%; /* Mayor ancho para aprovechar espacio */
+        width: 100%; 
         height: 65%;
-        overflow-x: auto; /* Permite scroll horizontal si es necesario */
         padding-bottom: 1rem;
         margin-top: 12%;
     }
     
-    /* container I N D I V I D I A L(GALERIA)*/
     .gallery-item {
         width: 33%;
         height: 100%;
-        min-width: 130px; /* Garantiza un mínimo de ancho */
+        min-width: 130px; 
         transition: transform 0.3s ease;
     }
     
-    /*titulo item de galeria*/
     .gallery-title {
         font-family: 'Prata', serif;
-        font-size: 0.9rem; /* Tamaño fijo para móvil */
+        font-size: 0.9rem; 
         text-align: center;
         height: auto;
         padding-top: 0.5rem;
         width: 100%;
     }
     
-    /* Imágenes dentro de cada item */
     .gallery-image {
         width: 100%;
-        height: 65%; /* Altura fija para mantener consistencia */
+        height: 65%; 
         border-radius: 0.125rem;
         object-fit: cover;
     } 
     
-    /* SERVICES TITLE STYLES */
     .section__title {
         display: flex;
         align-items: center;
-        gap: 0.5rem; /* Reducido para móvil */
+        gap: 0.5rem; 
         justify-content: center;
-        width: 90%; /* Más ancho para móvil */
+        width: 90%; 
         height: 10%;
         margin-bottom: 0.5rem;
     }
     
-    /*titulo*/
     .title{
         font-family: 'Prata', serif;
-        font-size: 1.4rem; /* Tamaño fijo para móvil */
+        font-size: 1.5rem; 
         color: #333;
-        width: 60%; /* Más ancho para móvil */
+        width: 60%; 
         text-align: center;
     }
     
-    /*lineas a los lados de titulo*/
     .title__line{
-        width: 28%; /* Reducido para móvil */
+        width: 28%; 
         height: 0.15rem;
         background-color: goldenrod;
         border: none;
     }
 }
 
-
-/* nueva idea */
  /* Tabletas pequeñas */
 @media (min-width: 768px) and (max-width: 1023px) {
-    /* SERVICES CONTAINER LAYOUT STYLES */
     .services {
         display: flex;
         align-items: center;
@@ -212,7 +187,6 @@
         background-color: #ffffff;
     }
     
-    /*Contenedor PADRE*/
     .container-padre {
         background-color: var(--color-bg-overlay);
         width: 95%;
@@ -223,7 +197,6 @@
         padding: 2.5rem 0;
     }
     
-    /* SERVICES DESCRIPTION STYLES */
     .section__description {
         font-family: 'Bai Jamjuree', sans-serif;
         font-size: 1.1rem;
@@ -235,7 +208,6 @@
         padding-bottom: 2rem;
     }
     
-    /* SERVICES GALLERY STYLES */
     .gallery-container {
         display: flex;
         gap: 1.5rem;
@@ -244,7 +216,6 @@
         padding-bottom: 1.5rem;
     }
     
-    /* container I N D I V I D I A L(GALERIA)*/
     .gallery-item {
         width: 33%;
         height: 100%;
@@ -252,7 +223,6 @@
         transition: transform 0.3s ease;
     }
     
-    /*titulo item de galeria*/
     .gallery-title {
         font-family: 'Prata', serif;
         font-size: 1.3rem;
@@ -262,7 +232,6 @@
         width: 100%;
     }
     
-    /* Imágenes dentro de cada item */
     .gallery-image {
         width: 100%;
         height: 75%;
@@ -270,7 +239,6 @@
         object-fit: cover;
     } 
     
-    /* SERVICES TITLE STYLES */
     .section__title {
         display: flex;
         align-items: center;
@@ -279,9 +247,7 @@
         width: 85%;
         height: 15%;
     }
-    
-    /*titulo*/
-    .title {
+        .title {
         font-family: 'Prata', serif;
         font-size: 1.8rem;
         color: #333;
@@ -289,47 +255,11 @@
         text-align: center;
     }
     
-    /*lineas a los lados de titulo*/
     .title__line {
         width: 30%;
         height: 0.18rem;
         background-color: goldenrod;
         border: none;
     }
-    
-    /* NAVBAR ADAPTATIONS */
-    .navbar__menu-item a {
-        font-size: 0.9rem;
-    }
-    
-    .navbar__mobile-number {
-        padding: 0.7rem;
-    }
-    
-    .navbar__mobile-number-text {
-        font-size: 0.75rem;
-    }
-    
-    /* ABOUT US SECTION ADAPTATIONS */
-    .container__content-about-us {
-        width: 60vw;
-    }
-    
-    .container__description-about-us {
-        font-size: 1.1rem;
-        padding-left: 5%;
-    }
-    
-    /* FORM ADAPTATIONS */
-    .form__container {
-        width: 95%;
-    }
-    
-    .form__side-items-container {
-        width: 35%;
-    }
-    
-    .form__form-container {
-        width: 50%;
-    }
+
 }
