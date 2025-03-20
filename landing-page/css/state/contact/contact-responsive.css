@@ -1,0 +1,148 @@
+/* Moviles S 320 x 374px */
+@media (max-width: 374px) {
+  .form {
+    background-color: blueviolet;
+  }
+}
+
+/* Moviles M 375 x 424px */
+@media (min-width: 375px) and (max-width: 424px) {
+  .form {
+    background-color: blue;
+  }
+}
+
+/* Moviles L 425 x 767px */
+@media (min-width: 425px) and (max-width: 767px) {
+  /* Estructura principal */
+  .form {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+ 
+  
+  .form__container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+  }
+  
+  /* Contenedor de información de contacto */
+  .form__side-items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3%;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  /* Título del formulario */
+  .form__title {
+    margin-bottom: 0.5rem;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .form__title h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .form__title p {
+    font-size: 0.8rem;
+  }
+  
+  /* Grid para métodos de contacto */
+  .form__contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
+    width: 95%;
+  }
+  
+  .form__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  
+  .form__item img {
+    width: 1.8rem;
+  }
+  
+  .form__item p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  
+  /* Contenedor del formulario */
+  .form__form-container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    gap: 2%;
+    padding: 0.5rem;
+  }
+  
+  /* Grupos de campos del formulario */
+  .form__group-container {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
+  }
+  
+  .form__form-container .form__group {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    gap: 0.5rem;
+  }
+  
+  /* Campos específicos que ocupan todo el ancho */
+  .form__group-container .form__group:nth-child(3),
+  .form__group-container .form__group:nth-child(4),
+  .form__group-container .form__group:nth-child(5) {
+    grid-column: span 2;
+  }
+  
+  /* Estilos de campos de formulario */
+  .form__group input, 
+  .form__group-container textarea {
+    width: 100%;
+    padding: 0.3rem;
+    font-size: 0.9rem;
+    border: 1px solid black;
+  }
+  
+  .form__group-container textarea {
+    height: 3.5rem;
+    resize: none;
+  }
+  
+  /* Botón de envío */
+  .standar__button-light-shadow {
+    margin-bottom: 10px;
+    padding: 0.6rem 1.5rem;
+  }
+}
