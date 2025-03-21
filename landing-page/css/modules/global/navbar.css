@@ -56,12 +56,6 @@
     width: 10%;
 }
 
-.navbar__menu-item a {
-    display: flex;
-    width: 100%;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
-}
-
 .navbar__menu-logo {
     display: flex;
     align-items: center;
@@ -79,17 +73,28 @@
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.432));
 }
 
-.navbar__menu-item a {
+.navbar__menu-item-menu {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-family: "Prata", serif;
+    font-weight: bold;
+    display: inline;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
+}
+
+.navbar__menu-item-home {
     text-decoration: none;
     color: white;
     font-size: 1rem;
     font-family: "Prata", serif;
     font-weight: bold;
     display: inline;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
 }
 
-.navbar__menu-item .navbar__menu-item-black{
-    color: black;
+.text__scrolled-white {
+    color: white !important;
 }
 
 

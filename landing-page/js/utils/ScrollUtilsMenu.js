@@ -1,15 +1,20 @@
-export const scrollUtils = {
+export const scrollUtilsMenu = {
     handleNavbarScroll: (simpleBar, config) => {
         const scrollPosition = simpleBar.getScrollElement().scrollTop;
 
         if (scrollPosition > 100) {
             // Agregar clase de navbar colapsada
             config.navbar.classList.add("scrolled");
+            config.menuItems.forEach((item) => {
+                item.classList.add("text__scrolled-white");
+                item.classList.add("navbar__menu-item-menu");
+            });
         } else {
             // Quitar clase de navbar colapsada
             config.navbar.classList.remove("scrolled");
             config.menuItems.forEach((item) => {
-                item.classList.add("navbar__menu-item-home");
+                item.classList.remove("text__scrolled-white");
+                item.classList.add("navbar__menu-item-menu");
             });
         }
     },
@@ -35,7 +40,7 @@ export const scrollUtils = {
     },
 
     updateActiveMenuItem: (config) => {
-        const currentSection = scrollUtils.getCurrentSection(config);
+        const currentSection = scrollUtilsMenu.getCurrentSection(config);
         if (!currentSection) return;
 
         const currentSectionId = currentSection.id;
