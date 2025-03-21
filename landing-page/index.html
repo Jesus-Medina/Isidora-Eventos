@@ -62,6 +62,7 @@
 
     <!-- Estados -->
     <link rel="stylesheet" href="css/state/home/home-page-states.css">
+    <link rel="stylesheet" href="css/state/home/navbar-responsve.css">
 
     <!-- ========================= LIBRERÍAS EXTERNAS ========================= -->
     <!-- SimpleBar -->
@@ -85,15 +86,18 @@
         <section class="header" id="home">
             <!-- Video de fondo -->
             <video class="header__video-background" autoplay muted loop>
-                <source src="assets/videos/header-video-1.webm" type="video/mp4">
+                <source src="" type="video/mp4">
                 Tu navegador no soporta la reproducción de video.
             </video>
 
             <!-- Barra de navegación -->
-            <div class="navbar-wrapper">
+            <div id="navbar"  class="navbar-wrapper">
                 <nav class="navbar">
                     <!-- Menú redes sociales -->
-                    <div class="navbar__social-media-container">
+                    <div id="social" class="navbar__social-media-container">
+                        <button id="open" class="navbar-open-menu-button"><span></span></button>
+                        <button id="close" class="navbar__close-menu-button hide__item close__menu"></button>
+
                         <ul class="navbar__social-menu-list">
                             <li class="navbar__social-menu-item">
                                 <a href="#">
@@ -111,15 +115,15 @@
                     <!-- Menú central -->
                     <div class="navbar__central-menu-container">
                         <ul class="navbar__menu">
-                            <li class="navbar__menu-item"><a href="#home">Inicio</a></li>
-                            <li class="navbar__menu-item"><a href="#services">Servicios</a></li>
+                            <li class="navbar__menu-item desktop__item"><a href="#home">Inicio</a></li>
+                            <li class="navbar__menu-item desktop__item"><a href="#services">Servicios</a></li>
                             <li class="navbar__menu-logo">
                                 <a href="#" class="navbar__logo-container">
                                     <img class="navbar__logo-image" src="assets/images/logo.webp" alt="Logo">
                                 </a>
                             </li>
-                            <li class="navbar__menu-item"><a href="#about">Nosotros</a></li>
-                            <li class="navbar__menu-item"><a href="#contact">Contacto</a></li>
+                            <li class="navbar__menu-item desktop__item"><a href="#about">Nosotros</a></li>
+                            <li class="navbar__menu-item desktop__item"><a href="#contact">Contacto</a></li>
                         </ul>
                     </div>
 
@@ -134,6 +138,52 @@
                     </div>
                 </nav>
             </div>
+
+            <!-- Responsvie navbar-->
+
+            <nav id="hambuerger__menu" class="hamburger__menu hide__item">
+
+                <div class="div__1">
+
+                    <div class="navbar__central-menu-container">
+                        <ul  class="navbar__menu">
+                            <li id="close" class="navbar__menu-item"><a href="#home">Inicio</a></li>
+                            <li class="navbar__menu-item "><a href="#services">Servicios</a></li>
+                    
+                            <li class="navbar__menu-item "><a href="#about">Nosotros</a></li>
+                            <li class="navbar__menu-item "><a href="#contact">Contacto</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                
+                <div class="div__2">
+                    <div id="social" class="navbar__social-media-container-hamburger">
+                        
+                        <ul class="navbar__social-menu-list-hamburger">
+                            <li class="navbar__social-menu-item-hamburger">
+                                <a href="#">
+                                    <img class="navbar__social-menu-icon-hamburger" id="facebook-icon" src="assets/images/facebook-icon.webp" alt="Facebook">
+                                </a>
+                            </li>
+                            <li class="navbar__social-menu-item-hamburger">
+                                <a href="#">
+                                    <img class="navbar__social-menu-icon-hamburger" id="instagram-icon" src="assets/images/instagram-icon.webp" alt="Instagram">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="div__3">
+
+                </div>
+
+            </nav>
+
+
+
+
 
             <!-- Contenido del header -->
             <div class="header__content">
@@ -154,6 +204,8 @@
                 </div>
             </div>
         </section>
+
+
 
         <!-- =========== SECCIÓN SERVICIOS =========== -->
         <section class="services" id="services">
@@ -330,5 +382,7 @@
             </div>
         </section>
     </div>
+    <script src="./js/components/navbar-responsibe.js"></script>
+
 </body>
 </html>
