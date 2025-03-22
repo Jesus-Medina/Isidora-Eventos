@@ -4,6 +4,13 @@ import { scrollUtils } from "./utils/ScrollUtils.js";
 import { floatingButtons } from "./components/WhatsappFlotingButton.js";
 import { menuEvents } from "./components/MenuEvents.js";
 import { DOMReadyObserver } from "./services/DOMReadyObserver.js";
+import { initializeMenuEvents } from "./components/navbar-responsibe.js";
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    initializeMenuEvents(); // Llamar a la función para inicializar eventos del menú
+});
+
 
 document.addEventListener("DOMContentLoaded", async () => {
     try {
