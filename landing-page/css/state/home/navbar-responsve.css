@@ -1,4 +1,4 @@
-@media (width <= 780px) {
+@media (width <= 900px) {
     
     /* Menú hamburguesa */
     .hamburger__menu {
@@ -85,11 +85,14 @@
         filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.432));
     }
 
-    /* Botón de apertura del menú */
     .navbar-open-menu-button {
         display: flex;
     }
 
+    .navbar__close-menu-button{
+        display: flex;
+    }
+    
     /* Fondo negro para el navbar */
     .navbar-wrapper-black {
         background-color: black;

@@ -157,6 +157,11 @@
     display: none;
 }
 
+.navbar__close-menu-button{
+    display: none;
+}
+
 .hamburger__menu {
     display: none;
 }
+
