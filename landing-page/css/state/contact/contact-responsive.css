@@ -1,78 +1,50 @@
 /* Moviles S 320 x 374px */
-@media (max-width: 374px) {
-  .form {
-    background-color: blueviolet;
-  }
-}
-
-/* Moviles M 375 x 424px */
-@media (min-width: 375px) and (max-width: 424px) {
-  .form {
-    background-color: blue;
-  }
-}
-
-/* Moviles L 425 x 767px */
-@media (min-width: 425px) and (max-width: 767px) {
-  /* Estructura principal */
+@media screen and (max-width: 374px) {
   .form {
     position: relative;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: 100%;
     width: 100%;
+    height: 100%;
   }
-  
- 
-  
   .form__container {
     width: 90%;
-    height: 90%;
+    height: 69%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 2%;
+    gap: 5%;
   }
-  
-  /* Contenedor de información de contacto */
   .form__side-items-container {
+    width: 100%;
+    margin-top: 7%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    gap: 3%;
-    margin-bottom: 5px;
+    gap: 1%;
     color: white;
   }
-  
-  /* Título del formulario */
   .form__title {
-    margin-bottom: 0.5rem;
-    margin-top: 5px;
-    text-align: center;
     width: 100%;
+    margin-bottom: 0.5rem;
+    text-align: center;
   }
-  
   .form__title h1 {
-    font-size: 1.2rem;
-    margin-bottom: 0.2rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.1rem;
   }
-  
   .form__title p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
-  
-  /* Grid para métodos de contacto */
   .form__contact-grid {
+    width: 95%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0.5rem;
-    width: 95%;
   }
-  
   .form__item {
     display: flex;
     flex-direction: column;
@@ -80,69 +52,385 @@
     align-items: center;
     gap: 0.3rem;
   }
-  
   .form__item img {
-    width: 1.8rem;
+    width: 1.5rem;
   }
-  
   .form__item p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-align: center;
   }
-  
-  /* Contenedor del formulario */
   .form__form-container {
     width: 90%;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
     color: black;
-    gap: 2%;
+    gap: 1%;
     padding: 0.5rem;
   }
-  
-  /* Grupos de campos del formulario */
   .form__group-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.3rem;
+  }
+  .form__form-container .form__group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    gap: 0.3rem;
+  }
+  .form__group input,
+  .form__group-container textarea {
+    width: 100%;
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    border: 1px solid black;
+    box-sizing: border-box;
+    resize: none;
+  }
+  .form__group-container textarea {
+    height: 2.5rem;
+  }
+  .form__group:last-child {
+    display: flex;
+    justify-content: center;
+  }
+  .standar__button-light-shadow {
+    transform: scale(0.9);
+    margin: 0.3rem 0;
+  }
+  .contact__content {
+    position: absolute;
+    bottom: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 99%;
+    gap: 0.2rem;
+    margin-bottom: 1.3rem;
+  }
+  .contact__content h1 {
+    font-size: 3.9vw;
+  }
+  .contact__content h2 {
+    font-size: 2.4vw;
+  }
+  .footer__atention-text h1 {
+    font-size: 3.4vw;
+  }
+  .footer__atention-text h2 {
+    font-size: 2.4vw;
+  }
+  .copyleft__content h1 {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7vw;
+  }
+  .copyleft__content a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7vw;
+  }
+  .form__form-container > h1 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+}
+
+
+
+/* Moviles M 375 x 424px */
+@media screen and (min-width: 375px) and (max-width: 424px)
+{  .form {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.form__container {
+  width: 90%;
+  height: 67%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top:3%;
+  gap: 0.5em;
+}
+.form__side-items-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+  color: white;
+}
+.form__title {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.form__title h1 {
+  font-size: 1.2rem;
+  margin-bottom: 0.1rem;
+}
+.form__title p {
+  font-size: 0.8rem;
+}
+.form__contact-grid {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5rem;
+}
+.form__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+.form__item img {
+  width: 1.7rem;
+}
+.form__item p {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.form__form-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  gap: 1%;
+  padding: 0.5rem;
+}
+.form__group-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.3rem;
+}
+.form__form-container .form__group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  gap: 0.3rem;
+}
+.form__group input,
+.form__group-container textarea {
+  width: 100%;
+  padding: 0.3rem;
+  font-size: 1rem;
+  border: 1px solid black;
+  box-sizing: border-box;
+  resize: none;
+}
+.form__group-container textarea {
+  height: 2.7rem;
+}
+.form__group:last-child {
+  display: flex;
+  justify-content: center;
+}
+.standar__button-light-shadow {
+  transform: scale(0.9);
+  margin: 0.3rem 0;
+}
+.contact__content {
+  position: absolute;
+  bottom: 16%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 99%;
+  gap: 0.2rem;
+  margin-bottom: 1.3rem;
+}
+.contact__content h1 {
+  font-size: 3.9vw;
+}
+.contact__content h2 {
+  font-size: 2.4vw;
+}
+.footer__atention-text h1 {
+  font-size: 3.4vw;
+}
+.footer__atention-text h2 {
+  font-size: 2.4vw;
+}
+.copyleft__content h1 {
+  color: white;
+  text-decoration: none;
+  font-size: 1.7vw;
+}
+.copyleft__content a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.7vw;
+}
+.form__form-container > h1 {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}}
+
+
+/* Moviles L 425 x 767px */
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .form {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .form__container {
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+  }
+  .form__side-items-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    color: white;
+    margin-top:3%;
+  }
+  .form__title {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  .form__title h1 {
+    font-size: 1rem;
+    margin-bottom: 0.1rem;
+  }
+  .form__title p {
+    font-size: 0.8rem;
+  }
+  .form__contact-grid {
     width: 95%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0.5rem;
   }
-  
+  .form__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  .form__item img {
+    width: 1.7rem;
+  }
+  .form__item p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .form__form-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    gap: 1%;
+    padding: 0.5rem;
+  }
+  .form__group-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.3rem;
+  }
   .form__form-container .form__group {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-self: start;
-    gap: 0.5rem;
+    gap: 0.3rem;
   }
-  
-  /* Campos específicos que ocupan todo el ancho */
-  .form__group-container .form__group:nth-child(3),
-  .form__group-container .form__group:nth-child(4),
-  .form__group-container .form__group:nth-child(5) {
-    grid-column: span 2;
-  }
-  
-  /* Estilos de campos de formulario */
-  .form__group input, 
+  .form__group input,
   .form__group-container textarea {
     width: 100%;
     padding: 0.3rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     border: 1px solid black;
-  }
-  
-  .form__group-container textarea {
-    height: 3.5rem;
+    box-sizing: border-box;
     resize: none;
   }
-  
-  /* Botón de envío */
+  .form__group-container textarea {
+    height: 2.7rem;
+  }
+  .form__group:last-child {
+    display: flex;
+    justify-content: center;
+  }
   .standar__button-light-shadow {
-    margin-bottom: 10px;
-    padding: 0.6rem 1.5rem;
+    transform: scale(0.9);
+    margin: 0.3rem 0;
+  }
+  .contact__content {
+    position: absolute;
+    bottom: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 99%;
+    gap: 0.2rem;
+    margin-bottom: 1.3rem;
+  }
+  .contact__content h1 {
+    font-size: 4vw;
+  }
+  .contact__content h2 {
+    font-size: 2.5vw;
+  }
+  .footer__atention-text h1 {
+    font-size: 3.5vw;
+  }
+  .footer__atention-text h2 {
+    font-size: 2.5vw;
+  }
+  .copyleft__content h1 {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8vw;
+  }
+  .copyleft__content a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8vw;
+  }
+  .form__form-container > h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
   }
 }
