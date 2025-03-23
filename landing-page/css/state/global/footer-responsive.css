@@ -1,0 +1,166 @@
+@media screen and (max-width: 480px){
+
+    /* FOOTER ATENTION CONTENT MEDIA STYLES */
+.footer_atention-content{
+    width: 100%;
+}
+
+.footer__atention-text h1{
+    font-size: 7vw;
+}
+
+.footer__atention-text h2{
+    font-size: 3vw;
+}
+
+/* FOOTER CONTACT CONTENT STYLES */
+
+.contact__content {
+    width: 90%;
+    height: 60%;
+}
+
+.contact__content h1{
+    font-size: 6vw;
+    padding-bottom: 2%;
+}
+
+.contact__content h2{
+    font-size: 3.5vw;
+}
+
+/* FOOTER COPYLEFT STYLES */
+
+.copyleft__content a, .copyleft__content h1{
+    font-size: 2.1vw;
+}
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px){
+
+    /* FOOTER ATENTION CONTENT MEDIA STYLES */
+
+.footer_atention-content{
+    width: 100%;
+}
+
+.footer__atention-text h1{
+    font-size: 7vw;
+}
+
+.footer__atention-text h2{
+    font-size: 3vw;
+}
+
+/* FOOTER CONTACT CONTENT STYLES */
+
+.contact__content {
+    width: 90%;
+    height: 65%;
+}
+
+.contact__content h1{
+    font-size: 6vw;
+    padding-bottom: 2%;
+}
+
+.contact__content h2{
+    font-size: 3.5vw;
+}
+
+/* FOOTER COPYLEFT STYLES */
+
+.copyleft__content a, .copyleft__content h1{
+    font-size: 2.1vw;
+}
+
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px){
+
+    /* FOOTER ATENTION CONTENT MEDIA STYLES */
+
+.footer_atention-content{
+    width: 100%;
+}
+
+
+.footer__atention-text h1{
+    font-size: 7vw;
+}
+
+.footer__atention-text h2{
+    font-size: 3vw;
+}
+
+/* FOOTER CONTACT CONTENT STYLES */
+
+.contact__content {
+    width: 90%;
+    height: 65%;
+}
+
+.contact__content h1{
+    font-size: 6vw;
+    padding-bottom: 2%;
+}
+
+.contact__content h2{
+    font-size: 3.5vw;
+}
+
+/* FOOTER COPYLEFT STYLES */
+
+.copyleft__content a, .copyleft__content h1{
+    font-size: 2.1vw;
+}
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+    /* FOOTER ATENTION CONTENT MEDIA STYLES */
+
+.footer_atention-content{
+    width: 100%;
+}
+
+.footer__atention-text h1{
+    font-size: 7vw;
+}
+
+.footer__atention-text h2{
+    font-size: 3vw;
+}
+
+/* FOOTER CONTACT CONTENT STYLES */
+
+.contact__content {
+    width: 95%;
+    height: 65%;
+}
+
+.contact__content h1{
+    font-size: 5vw;
+    padding-bottom: 2%;
+}
+
+.contact__content h2{
+    font-size: 3.5vw;
+}
+
+/* FOOTER COPYLEFT STYLES */
+
+.copyleft__content a, .copyleft__content h1{
+    font-size: 2.1vw;
+}
+
+}
+
+
+
+
