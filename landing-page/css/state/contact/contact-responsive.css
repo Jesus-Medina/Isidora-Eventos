@@ -36,7 +36,6 @@
   }
   .form__item {
     flex-direction: column;
-    align-items: center;
     gap: 0.3rem;
   }
   .form__item img {
@@ -81,13 +80,7 @@
     margin: 0.3rem 0;
   }
   .contact__content {
-    position: absolute;
     bottom: 16%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     width: 99%;
     gap: 0.2rem;
     margin-bottom: 1.3rem;
@@ -105,13 +98,9 @@
     font-size: 2.4vw;
   }
   .copyleft__content h1 {
-    color: white;
-    text-decoration: none;
     font-size: 1.7vw;
   }
   .copyleft__content a {
-    color: white;
-    text-decoration: none;
     font-size: 1.7vw;
   }
   .form__form-container > h1 {
@@ -160,7 +149,6 @@
 }
 .form__item {
   flex-direction: column;
-  align-items: center;
   gap: 0.3rem;
 }
 .form__item img {
@@ -205,13 +193,7 @@
   margin: 0.3rem 0;
 }
 .contact__content {
-  position: absolute;
   bottom: 16%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   width: 99%;
   gap: 0.2rem;
   margin-bottom: 1.3rem;
@@ -229,13 +211,9 @@
   font-size: 2.4vw;
 }
 .copyleft__content h1 {
-  color: white;
-  text-decoration: none;
   font-size: 1.7vw;
 }
 .copyleft__content a {
-  color: white;
-  text-decoration: none;
   font-size: 1.7vw;
 }
 .form__form-container > h1 {
@@ -283,7 +261,6 @@
   }
   .form__item {
     flex-direction: column;
-    align-items: center;
     gap: 0.3rem;
   }
   .form__item img {
@@ -328,13 +305,7 @@
     margin: 0.3rem 0;
   }
   .contact__content {
-    position: absolute;
     bottom: 16%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     width: 99%;
     gap: 0.2rem;
     margin-bottom: 1.3rem;
@@ -352,13 +323,9 @@
     font-size: 2.5vw;
   }
   .copyleft__content h1 {
-    color: white;
-    text-decoration: none;
     font-size: 1.8vw;
   }
   .copyleft__content a {
-    color: white;
-    text-decoration: none;
     font-size: 1.8vw;
   }
   .form__form-container > h1 {
