@@ -1,4 +1,6 @@
 
+@import url(../../../theme/typography.css);
+
 /* FOOTER ATENTION CONTENT MEDIA STYLES */
 
 .footer_atention-content {
@@ -26,9 +28,9 @@
 }
 
 .footer__atention-text h1{
-    font-size: 2vw;
+    font-size: var(--text-lg)
 }
 
 .footer__atention-text h2{
-    font-size: 1vw;
+    font-size: var(--text-xs);
 }
