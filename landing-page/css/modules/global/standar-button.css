@@ -1,3 +1,4 @@
+@import url(../../base/colors.css);
 
 /* STANDAR BUTTON */
 
@@ -11,7 +12,7 @@
 
 .standar__button-link {
     text-decoration: none;
-    color: white;
+    color: var(--color-text-light);
     font-family: "Prata", serif;
     font-weight: bold;
     font-size: 0.8rem;

@@ -1,3 +1,4 @@
+@import url(../../base/colors.css);
 
 /* NAVBAR CONTAINER LAYOUT STYLES */
 
@@ -26,7 +27,7 @@
 
 /* Clase para cuando el navbar está scrolleado */
 .navbar.scrolled {
-    background-color: black; /* O el color que prefieras */
+    background-color: var(--color-bg-dark); /* O el color que prefieras */
     height: 12vh; /* Altura reducida cuando está scrolleado */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
@@ -89,7 +90,7 @@
 }
 
 .navbar__menu-item .navbar__menu-item-black{
-    color: black;
+    color: var(--color-text-dark);
 }
 
 
@@ -123,7 +124,7 @@
 .navbar__mobile-number-text {
     font-size: 0.8rem;
     letter-spacing: 2px;
-    color: white;
+    color: var(--color-text-light);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
 }
 
@@ -140,7 +141,7 @@
     align-items: center;
     gap: 1rem;
     height: 100%;
-    color: white;
+    color: var(--color-text-light);
 }
 
 .navbar__social-menu-item {

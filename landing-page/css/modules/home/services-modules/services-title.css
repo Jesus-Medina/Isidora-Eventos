@@ -1,3 +1,4 @@
+@import url(../../../base/colors.css);
 
 /* SERVICES TITLE STYLES */
 
@@ -15,7 +16,7 @@
 .title{
     font-family: 'Prata', serif; /* Tipo de letra */
     font-size: clamp(0.5rem,2vw,2.5rem); /* Tamaño del título */
-    color: #333; /* Color del texto */
+    color: var(--color-bg-dark); /* Color del texto */
     width: 43%;
     text-align: center; /*centra horizontalmente*/
 }
@@ -25,6 +26,6 @@
 .title__line{
     width: 33%; /* Longitud de la línea */
     height: 0.15rem; /* Grosor de la línea */
-    background-color: goldenrod; /* Color de la línea */
+    background-color: var(--color-secondary); /* Color de la línea */
     border: none; /* Elimina el borde predeterminado de <hr> */
 }
