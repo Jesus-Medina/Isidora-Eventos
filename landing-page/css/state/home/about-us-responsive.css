@@ -15,13 +15,13 @@
     }
 
     .title__about-us {
-        font-size: 4.5vw;
+        font-size: var(--text-base);
         width: 100%;
         padding-top: 3%;
     }
 
     .container__description-about-us {
-        font-size: 3.2vw;
+        font-size: var(--text-xxs);
         height: 75%;
         width: 95%;
     }
@@ -45,13 +45,13 @@
     }
 
     .title__about-us {
-        font-size: 4.5vw;
+        font-size: var(--text-lg);
         width: 100%;
         padding-top: 3%;
     }
 
     .container__description-about-us {
-        font-size: 3.2vw;
+        font-size: var(--text-xs);
         height: 90%;
     }
 
@@ -74,13 +74,13 @@
     }
 
     .title__about-us {
-        font-size: 4.5vw;
+        font-size: var(--text-lg);
         width: 100%;
         padding-top: 3%;
     }
 
     .container__description-about-us {
-        font-size: 2.8vw;
+        font-size: var(--text-sm);
         height: 90%;
     }
 
@@ -103,13 +103,13 @@
     }
 
     .title__about-us {
-        font-size: var(--text-base);
+        font-size: var(--text-lg);
         width: 100%;
         padding-top: 3%;
     }
 
     .container__description-about-us {
-        font-size: var(--text-xl);
+        font-size: var(--text-sm);
         height: 90%;
     }
 

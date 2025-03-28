@@ -9,6 +9,7 @@
     --font-secondary: 'Bai Jamjuree', sans-serif;
 
     /* Font Sizes */
+    --text-xxs: 0.6rem;
     --text-xs: 0.8rem;
     --text-sm: 1rem;
     --text-base: 1.2rem;
