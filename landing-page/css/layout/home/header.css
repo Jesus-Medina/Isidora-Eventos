@@ -18,6 +18,5 @@
     z-index: -1; /* Coloca el video detrás del contenido */
     filter: brightness(0.55);  /*Reduce el brillo al 55%*/
 
-    background-color: aqua;
 }
 
