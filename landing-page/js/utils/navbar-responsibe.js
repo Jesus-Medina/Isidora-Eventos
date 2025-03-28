@@ -3,7 +3,7 @@ export function openMenu(config) {
     config.hamburger_menu.classList.remove("hide__item");
     config.open_menu.classList.add("hide__item");
     config.close_menu.classList.remove("hide__item");
-    config.navbar.classList.add("navbar-wrapper-black");
+    config.navbarResponsive.classList.add("navbar-wrapper-black");
 }
 
 // Función para cerrar el menú
@@ -11,7 +11,7 @@ export function closeMenu(config) {
     config.hamburger_menu.classList.add("hide__item");
     config.open_menu.classList.remove("hide__item");
     config.close_menu.classList.add("hide__item");
-    config.navbar.classList.remove("navbar-wrapper-black");
+    config.navbarResponsive.classList.remove("navbar-wrapper-black");
 }
 
 // Función para inicializar los eventos del menú

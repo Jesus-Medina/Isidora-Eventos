@@ -13,6 +13,6 @@ export const config = {
     open_menu: document.querySelector("#open"),
     close_menu: document.querySelector("#close"),
     hamburger_menu: document.querySelector("#hambuerger__menu"),
-    navbar: document.querySelector("#navbar"),
+    navbarResponsive: document.querySelector("#navbar"),
 
 };
