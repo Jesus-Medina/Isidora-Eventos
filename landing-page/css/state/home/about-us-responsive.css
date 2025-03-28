@@ -1,3 +1,5 @@
+@import url(../../theme/typography.css);
+
 /* ABOUT US RESPONSIVE STYLES */
 
 /* Móviles Pequeños: 320px - 480px */
@@ -101,13 +103,13 @@
     }
 
     .title__about-us {
-        font-size: 4vw;
+        font-size: var(--text-base);
         width: 100%;
         padding-top: 3%;
     }
 
     .container__description-about-us {
-        font-size: 2.5vw;
+        font-size: var(--text-xl);
         height: 90%;
     }
 

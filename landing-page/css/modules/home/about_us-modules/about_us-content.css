@@ -1,3 +1,4 @@
+@import url(../../theme/typography.css);
 
 /* ABOUT US CONTENT STYLES */
 
@@ -25,7 +26,7 @@
 /* Título */
 .title__about-us {
     font-family: 'Prata', serif;
-    font-size: clamp(0.5rem,2vw,2rem);;
+    font-size: var(--text-lg);
     text-align: center;
     width: 100%;
 }
@@ -33,7 +34,7 @@
 /* Descripción */
 .container__description-about-us {
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 1.1vw;
+    font-size: var(--text-sm);
     line-height: 1.7;
     text-align:left;
     height: 70%;
