@@ -1,13 +1,11 @@
 
 /* BASE COLORS STYLES */
 
-/* TODO ARREGLAR COLORES A COLORES REALES DEL PROYECTO Y PONERLOS EN VARIABLES*/
-
 :root {
     /* Primary Colors */
     --color-primary: #800000;
     --color-secondary: goldenrod;
-    
+
     /* Text Colors */
     --color-text-light: white;
     --color-text-dark: #333;
