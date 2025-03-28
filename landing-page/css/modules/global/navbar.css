@@ -29,7 +29,7 @@
 .navbar.scrolled {
     background-color: var(--color-bg-dark); /* O el color que prefieras */
     height: 12vh; /* Altura reducida cuando está scrolleado */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: var(--box-shadow-sm); /* Sombra sutil */
 }
 
 
@@ -60,7 +60,7 @@
 .navbar__menu-item a {
     display: flex;
     width: 100%;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
+    text-shadow: var(--text-shadow-sm);
 }
 
 .navbar__menu-logo {
@@ -77,7 +77,7 @@
 .navbar__logo-image {
     width: auto;
     height: 100%;
-    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.432));
+    filter: drop-shadow(var(--shadow-sm));
 }
 
 .navbar__menu-item a {
@@ -118,14 +118,14 @@
 .navbar__mobile-number-icon {
     width: 1.5;
     height: 1.5rem;
-    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.432));
+    filter: drop-shadow(var(--text-shadow-sm));
 }
 
 .navbar__mobile-number-text {
     font-size: 0.8rem;
     letter-spacing: 2px;
     color: var(--color-text-light);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
+    text-shadow:var(--text-shadow-sm);
 }
 
 
@@ -151,5 +151,5 @@
 .navbar__social-menu-icon {
     width: 1.5rem;
     height: 1.5rem;
-    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.432));
+    filter: drop-shadow(var(--text-shadow-sm));
 }
