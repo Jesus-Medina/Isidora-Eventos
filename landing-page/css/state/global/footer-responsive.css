@@ -6,22 +6,41 @@
 }
 
 .footer__atention-text h1{
-    font-size: 7vw;
+    font-size: 1.2rem;
 }
 
 .footer__atention-text h2{
     font-size: 3vw;
 }
 
+/*FOOTER LOGO ISIDORA EVENTOS*/
+
+.footer__logo-container img{
+    width: 80%;
+    height: auto;
+}
+
+.footer__logo-container{
+    top: 56%;
+    transform: translate(-40%, -55%);
+
+}
+
 /* FOOTER CONTACT CONTENT STYLES */
+
+.contact__text{
+    width: 100%;
+    height: 100%;
+    padding-top: 0.5rem;
+}
 
 .contact__content {
     width: 90%;
-    height: 60%;
+    height: 55%;
 }
 
 .contact__content h1{
-    font-size: 6vw;
+    font-size: 6.5vw;
     padding-bottom: 2%;
 }
 
@@ -141,7 +160,7 @@
 
 .contact__content {
     width: 95%;
-    height: 65%;
+    height: 60%;
 }
 
 .contact__content h1{
