@@ -19,8 +19,8 @@
 /*titulo item de galeria*/
 
 .gallery-title {
-    font-family: 'Prata', serif; /*Tipo de letra*/
-    font-size: 1.3vw;
+    font-family: var(--font-primary); /*Tipo de letra*/
+    font-size: var(--text-lg);
     text-align: center;
     height: 5%;
     width: 100%;

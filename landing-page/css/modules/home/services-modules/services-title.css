@@ -13,8 +13,8 @@
 /*titulo*/
 
 .title{
-    font-family: 'Prata', serif; /* Tipo de letra */
-    font-size: clamp(0.5rem,2vw,2.5rem); /* Tamaño del título */
+    font-family: var(--font-primary); /* Tipo de letra */
+    font-size: var(--text-2xl); /* Tamaño del título */
     color: #333; /* Color del texto */
     width: 43%;
     text-align: center; /*centra horizontalmente*/

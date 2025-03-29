@@ -2,8 +2,8 @@
 /* SERVICES DESCRIPTION STYLES */
 
 .section__description {
-    font-family: 'Bai Jamjuree', sans-serif; /*Tipo de letra*/
-    font-size: 1.1vw;
+    font-family: var(--font-secondary); /*Tipo de letra*/
+    font-size: var(--text-lg);
     width: 70%; /*Ancho del parrafo*/
     height: 25%;
     line-height: 1.7; /*Espacio entre columnas*/
