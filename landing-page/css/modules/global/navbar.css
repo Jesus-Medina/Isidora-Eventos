@@ -143,6 +143,7 @@
     gap: 1rem;
     height: 100%;
     color: white;
+    list-style: none;
 }
 
 .navbar__social-menu-item {
