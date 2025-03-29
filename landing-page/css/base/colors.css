@@ -24,7 +24,7 @@
     --shadow-sm: 0 0 5px var(--color-black-10);
     --shadow-md: 0 0 10px var(--color-black-30);
     --shadow-lg: 0 0 15px var(--color-black-50);
-    --text-shadow-sm: 1px 1px 1px var(--color-black-10);
+    --text-shadow-sm: 1px 1px 1px var(--color-black-50);
     --text-shadow-md: 3px 3px 5px var(--color-black-30);
     --box-shadow-sm: 0 2px 10px var(--color-black-10);
 }
