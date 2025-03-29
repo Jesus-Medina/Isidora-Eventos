@@ -4,6 +4,9 @@ import { scrollUtils } from "./utils/ScrollUtils.js";
 import { floatingButtons } from "./components/WhatsappFlotingButton.js";
 import { menuEvents } from "./components/MenuEvents.js";
 import { DOMReadyObserver } from "./services/DOMReadyObserver.js";
+import { initializeNavResponsiveEvents } from "./utils/navbar-responsibe.js";
+
+
 
 document.addEventListener("DOMContentLoaded", async () => {
     try {
@@ -26,6 +29,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 // Función principal de inicialización
 const initializeApp = (simpleBarContentWrapper, simpleBar) => {
     // Inicializar utilidades y componentes
+    
+    initializeNavResponsiveEvents(config);
     viewportUtils.updateViewportHeight(config);
     scrollUtils.updateActiveMenuItem(config);
     scrollUtils.handleNavbarScroll(simpleBar, config);
@@ -37,6 +42,7 @@ const initializeApp = (simpleBarContentWrapper, simpleBar) => {
         scrollUtils.updateActiveMenuItem(config);
         scrollUtils.handleNavbarScroll(simpleBar, config);
         floatingButtons.handleFloatingButtons(config);
+
     });
 
     window.addEventListener(

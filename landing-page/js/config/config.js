@@ -10,4 +10,9 @@ export const config = {
     facebookIcon: document.getElementById("facebook-icon"),
     instagramIcon: document.getElementById("instagram-icon"),
     botonUp: document.getElementById("boton-up"),
+    open_menu: document.querySelector("#open"),
+    close_menu: document.querySelector("#close"),
+    hamburger_menu: document.querySelector("#hambuerger__menu"),
+    navbarResponsive: document.querySelector("#navbar"),
+
 };
