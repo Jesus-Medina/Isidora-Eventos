@@ -5,6 +5,7 @@ import { scrollUtilsMenu } from "./utils/ScrollUtilsMenu.js";
 import { floatingButtons } from "./components/WhatsappFlotingButton.js";
 import { menuEvents } from "./components/MenuEvents.js";
 import { DOMReadyObserver } from "./services/DOMReadyObserver.js";
+import { initializeNavResponsiveEvents } from "./utils/navbarResponsive.js";
 
 // Detectar qué archivo HTML fue cargado
 const currentPage = window.location.pathname.split("/").pop();
@@ -33,40 +34,50 @@ const initializeApp = (simpleBarContentWrapper, simpleBar) => {
     console.log("current page: ", currentPage);
     console.log("scrollUtilsMenu:", scrollUtilsMenu);
     viewportUtils.updateViewportHeight(config);
+    initializeNavResponsiveEvents(config);
     if (currentPage == "menu.html") {
         scrollUtilsMenu.updateActiveMenuItem(config);
         scrollUtilsMenu.handleNavbarScroll(simpleBar, config);
+        initializeNavResponsiveEvents(config);
     } else {
         scrollUtils.updateActiveMenuItem(config);
         scrollUtils.handleNavbarScroll(simpleBar, config);
     }
     floatingButtons.handleFloatingButtons(config);
     menuEvents.initialize(config);
+    initializeNavResponsiveEvents(config);
 
     // Agregar listeners
     simpleBarContentWrapper.addEventListener("scroll", () => {
         if (currentPage == "menu.html") {
             scrollUtilsMenu.updateActiveMenuItem(config);
             scrollUtilsMenu.handleNavbarScroll(simpleBar, config);
+            initializeNavResponsiveEvents(config);
         } else {
             scrollUtils.updateActiveMenuItem(config);
             scrollUtils.handleNavbarScroll(simpleBar, config);
+            initializeNavResponsiveEvents(config);
         }
         floatingButtons.handleFloatingButtons(config);
+        initializeNavResponsiveEvents(config);
     });
 
     window.addEventListener(
         "resize",
         debounce(() => {
             viewportUtils.updateViewportHeight(config);
+            initializeNavResponsiveEvents(config);
             if (currentPage == "menu.html") {
                 scrollUtilsMenu.updateActiveMenuItem(config);
                 scrollUtilsMenu.handleNavbarScroll(simpleBar, config);
+                initializeNavResponsiveEvents(config);
             } else {
                 scrollUtils.updateActiveMenuItem(config);
                 scrollUtils.handleNavbarScroll(simpleBar, config);
+                initializeNavResponsiveEvents(config);
             }
             floatingButtons.handleFloatingButtons(config);
+            initializeNavResponsiveEvents(config);
         }, 200)
     );
 };
