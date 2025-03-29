@@ -88,6 +88,10 @@
     display: inline;
 }
 
+.navbar__menu-item .navbar__menu-item-black{
+    color: black;
+}
+
 
 /* MOBILE NUMBER STYLES */
 

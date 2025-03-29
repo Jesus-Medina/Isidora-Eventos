@@ -37,6 +37,11 @@
     <link rel="stylesheet" href="../css/layout/menu/experience.css">
 
     <!-- Módulos CSS -->
+    <link rel="stylesheet" href="../css/modules/menu//header-modules/content-container-menu.css">
+    <link rel="stylesheet" href="../css/modules/menu/header-modules/image-container-menu.css">
+    <link rel="stylesheet" href="../css/modules/menu/header-modules/lines-content-container.css">
+    <link rel="stylesheet" href="../css/modules/menu/header-modules/navbar-menu-header.css">
+
     <!-- Footer -->
     <link rel="stylesheet" href="../css/modules/global/footer-modules/footer-contact.css">
     <link rel="stylesheet" href="../css/modules/global/footer-modules/footer-bridge-logo.css">
@@ -44,10 +49,16 @@
     <link rel="stylesheet" href="../css/modules/global/footer-modules/footer-copyleft.css">
     <link rel="stylesheet" href="../css/modules/global/footer-modules/footer-atention-social-media.css">
 
+    <!-- Experience -->
+    <link rel="stylesheet" href="../css/modules/menu/experience-modules/experience-card.css">
+    <link rel="stylesheet" href="../css/modules/menu/experience-modules/experience-modules.css">
+    <link rel="stylesheet" href="../css/modules/menu/experience-modules/experience-title.css">
+
     <!-- Módulos Globales -->
     <link rel="stylesheet" href="../css/modules/global/whatsapp-button.css">
     <link rel="stylesheet" href="../css/modules/global/standar-button.css">
     <link rel="stylesheet" href="../css/modules/global/navbar.css">
+    
 
     <!-- Estados -->
     <link rel="stylesheet" href="../css/state/home/home-page-states.css">
@@ -119,12 +130,87 @@
                 </nav>
             </div>
 
-            <!-- Contenido del header AQUI-->
-            <div></div>
+            <!-- Header -->
+            <div class="header-container">
+                <div class="content-container">
+                    <hr class="line">
+                <div class="text-container">
+                    <h1 class="style-title">Menú</h1>
+                    <h3 class="style-sub-title">Coffee Breaks & Catering</h3>
+                    <p class="style-text">Explora nuestras variedades de productos</p>
+                </div>
+                    <div class="line-container">
+                        <hr class="line-rotate-right line">
+                        <hr class="line">
+                        <hr class="line-rotate-left line">
+                    </div>
+                </div>
+                <div class="image-container">
+                    <div class="circle"></div> 
+                    <img class="image" src="../assets/images/header-menu.webp" alt="Imagen">
+                </div>
+            </div>
         </section>
 
         <!-- =========== SECCIÓN SERVICIOS =========== -->
         <section class="experience" id="menu">
+
+            <div class="experience__content">
+
+                <header class="experience__title-container">
+
+                    <div class="line__start-container">
+                        <div class="line line__start"></div>
+                    </div>
+
+                    <h2 class="experience__title">Diversidad y calidad asegurada</h2>
+                    
+                    <div class="line__container">
+                        <div class="line line__end"></div>
+                    </div>
+                </header>
+                
+                <div class="experience__cards">
+
+                    <article class="item item-1">
+                        <div class="card__title-description">   
+                            <h3 class="sub__title">Menús a tu medida</h3>
+                            <p class="experience-parraf parraf-1">Desde opciones clásicas hasta creaciones innovadoras, cada evento es una experiencia gastronómica inolvidable. ¡Déjanos sorprenderte!</p>
+                        </div>
+                    
+                        <figure class="image__container ">
+                            <img class="imagen-card imagen-card-1" src="../assets/images/catering1.webp" alt="">
+                        </figure>
+                    </article>
+                    <article class="item item-2">
+                        <div class="card__title-description midle">
+                            <h3 class="sub__title">Basta experiencia</h3>
+                            <p class="experience-parraf parraf-2"> Con años de trayectoria, ofrecemos servicios de catering que combinan calidad, creatividad y atención al detalle para superar tus expectativas en cada evento.</p>
+                        </div>
+
+                        <figure class="image__container lower__image">
+                            <img class="imagen-card imagen-card-2" src="../assets/images/catering2.webp" alt="">
+                        </figure>
+
+                    </article>
+                        
+                    <article class="item item-3">
+                        <div class="card__title-description">
+                            <h3 class="sub__title">Calidad que se siente</h3>
+                            <p class="experience-parraf parraf-3"> Nos especializamos en ofrecer un servicio excepcional, con atención personalizada y estándares de calidad que aseguran.</p>
+                        </div>
+
+                        <figure class="image__container">
+                            <img class="imagen-card imagen-card-3" src="../assets/images/catering3.webp" alt="">
+                        </figure>
+
+                    </article>
+    
+               </div>
+                
+
+
+            </div>
             
         </section>
 
