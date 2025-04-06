@@ -1,0 +1,26 @@
+@import url(../../base/colors.css);
+
+.collaborators {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.collaborators__content {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.collaborators__container {
+    width: 90%;
+}
+

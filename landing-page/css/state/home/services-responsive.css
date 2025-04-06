@@ -10,7 +10,7 @@
     }
     
     .container-padre {
-        background-color: var(--color-bg-overlay);
+        background-color: var(--color-bg-light);
         width: 95%;
         height: 95%;
         display: flex;
@@ -89,8 +89,6 @@
         border: none;
     }
 }
-
-   
    /* Celular mediano */
 
 @media (min-width: 480px) and (max-width: 767px){
@@ -102,7 +100,7 @@
     }
     
     .container-padre{
-        background-color: var(--color-bg-overlay);
+        background-color: var(--color-bg-light);
         width: 95%;
         height: 95%;
         display: flex;
@@ -190,7 +188,7 @@
     }
     
     .container-padre {
-        background-color: var(--color-bg-overlay);
+        background-color: var(--color-bg-light);
         width: 95%;
         height: 95%;
         display: flex;

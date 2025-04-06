@@ -21,3 +21,8 @@
     color: var(--color-primary);
     text-decoration: underline;
 }
+
+.legal__advice {
+    font-size: 0.5rem;
+    color: white;
+}

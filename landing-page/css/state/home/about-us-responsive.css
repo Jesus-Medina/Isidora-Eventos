@@ -5,7 +5,7 @@
 /* Móviles Pequeños: 320px - 480px */
 @media screen and (max-width: 480px) {
     .container__content-about-us {
-        width: 85vw;
+        width: 90vw;
         height: 58%;
     }
 
@@ -21,8 +21,8 @@
     }
 
     .container__description-about-us {
-        font-size: var(--text-xxs);
-        height: 75%;
+        font-size: var(--text-xs);
+        height: 85%;
         width: 95%;
     }
 

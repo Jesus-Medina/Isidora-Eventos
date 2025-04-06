@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+    .collaborators__list {
+        width: 100%;
+        max-width: 1000px; /* o el valor que te acomode */
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        justify-items: center;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+    }
+
+    .collaborators__content {
+        width: 95%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .collaborators__item img {
+        width: 80px;
+        height: auto;
+    }
+
+    .collaborators__item-gob img{
+        width: 70px;
+        height: auto;
+    }
+    
+}
