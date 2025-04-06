@@ -27,3 +27,73 @@
     background-color: #800000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+
+
+/* buttoms of navbar close and open*/
+
+.navbar__close-menu-button{
+    overflow: hidden;
+    position: relative;
+    border: none;
+    padding: 0;
+    width: 3.5em; height: 3.5em;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    font: inherit;
+    text-indent: 100%;
+    cursor: pointer;
+    
+
+    
+    &:before, &:after {
+        position: absolute;
+        top: 15%; left: calc(50% - .0625em);
+        width: .125em; height: 70%;
+        border-radius: .125em;
+        transform: rotate(45deg);
+        background: currentcolor;
+        content: ''
+    }
+    
+    &:after { transform: rotate(-45deg); }
+}
+
+
+.navbar-open-menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    padding: 0; /* Sin padding */
+    cursor: pointer; /* Cambia el cursor a una mano */
+    width: 30px; /* Ancho del botón */
+    height: 20px; /* Alto del botón */
+    position: relative; /* Necesario para posicionar las rayas */
+}
+
+.navbar-open-menu-button::before,
+.navbar-open-menu-button::after,
+.navbar-open-menu-button span {
+    content: ""; /* Crea los pseudo-elementos */
+    position: absolute; /* Posiciona las rayas */
+    left: 0; /* Alinea las rayas a la izquierda */
+    width: 100%; /* Ancho completo */
+    height: 2px; /* Grosor de las rayas */
+    background: white; /* Color de las rayas (negro) */
+}
+
+.navbar-open-menu-button::before {
+    top: 0; /* Raya superior */
+}
+
+.navbar-open-menu-button span {
+    top: 50%; /* Raya central */
+    transform: translateY(-50%); /* Centra verticalmente */
+}
+
+.navbar-open-menu-button::after {
+    bottom: 0; /* Raya inferior */
+}

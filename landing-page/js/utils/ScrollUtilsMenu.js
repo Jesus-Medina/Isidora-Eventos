@@ -1,10 +1,12 @@
 export const scrollUtilsMenu = {
     handleNavbarScroll: (simpleBar, config) => {
         const scrollPosition = simpleBar.getScrollElement().scrollTop;
+        const hamburger_menu = document.querySelector("#hambuerger__menu");
 
         if (scrollPosition > 100) {
             // Agregar clase de navbar colapsada
             config.navbar.classList.add("scrolled");
+            hamburger_menu.classList.add("hamburger__menu-scrolled")
             config.menuItems.forEach((item) => {
                 item.classList.add("text__scrolled-white");
                 item.classList.add("navbar__menu-item-menu");
@@ -12,6 +14,7 @@ export const scrollUtilsMenu = {
         } else {
             // Quitar clase de navbar colapsada
             config.navbar.classList.remove("scrolled");
+            hamburger_menu.classList.remove("hamburger__menu-scrolled")
             config.menuItems.forEach((item) => {
                 item.classList.remove("text__scrolled-white");
                 item.classList.add("navbar__menu-item-menu");
