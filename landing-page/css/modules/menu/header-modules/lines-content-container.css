@@ -1,5 +1,7 @@
+
 @import url(../../../base/colors.css);
-.line{
+
+.header-line{
     width: 6px; /* Longitud de la línea */
     height: 7.8rem; /* Grosor de la línea */
     background-color: var(--color-bg-dark); /* Color de la línea */

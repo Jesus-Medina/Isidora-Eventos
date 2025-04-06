@@ -1,9 +1,14 @@
 import { config } from "./config/config.js";
 import { viewportUtils } from "./utils/ViewportUtils.js";
 import { scrollUtils } from "./utils/ScrollUtils.js";
+import { scrollUtilsMenu } from "./utils/ScrollUtilsMenu.js";
 import { floatingButtons } from "./components/WhatsappFlotingButton.js";
 import { menuEvents } from "./components/MenuEvents.js";
 import { DOMReadyObserver } from "./services/DOMReadyObserver.js";
+import { initializeNavResponsiveEvents } from "./utils/navbarResponsive.js";
+
+// Detectar qué archivo HTML fue cargado
+const currentPage = window.location.pathname.split("/").pop();
 
 document.addEventListener("DOMContentLoaded", async () => {
     try {
@@ -26,28 +31,53 @@ document.addEventListener("DOMContentLoaded", async () => {
 // Función principal de inicialización
 const initializeApp = (simpleBarContentWrapper, simpleBar) => {
     // Inicializar utilidades y componentes
+    console.log("current page: ", currentPage);
+    console.log("scrollUtilsMenu:", scrollUtilsMenu);
     viewportUtils.updateViewportHeight(config);
-    scrollUtils.updateActiveMenuItem(config);
-    scrollUtils.handleNavbarScroll(simpleBar, config);
+    initializeNavResponsiveEvents(config);
+    if (currentPage == "menu.html") {
+        scrollUtilsMenu.updateActiveMenuItem(config);
+        scrollUtilsMenu.handleNavbarScroll(simpleBar, config);
+        initializeNavResponsiveEvents(config);
+    } else {
+        scrollUtils.updateActiveMenuItem(config);
+        scrollUtils.handleNavbarScroll(simpleBar, config);
+    }
     floatingButtons.handleFloatingButtons(config);
     menuEvents.initialize(config);
+    initializeNavResponsiveEvents(config);
 
     // Agregar listeners
     simpleBarContentWrapper.addEventListener("scroll", () => {
-        scrollUtils.updateActiveMenuItem(config);
-        scrollUtils.handleNavbarScroll(simpleBar, config);
+        if (currentPage == "menu.html") {
+            scrollUtilsMenu.updateActiveMenuItem(config);
+            scrollUtilsMenu.handleNavbarScroll(simpleBar, config);
+            initializeNavResponsiveEvents(config);
+        } else {
+            scrollUtils.updateActiveMenuItem(config);
+            scrollUtils.handleNavbarScroll(simpleBar, config);
+            initializeNavResponsiveEvents(config);
+        }
         floatingButtons.handleFloatingButtons(config);
+        initializeNavResponsiveEvents(config);
     });
 
     window.addEventListener(
         "resize",
         debounce(() => {
             viewportUtils.updateViewportHeight(config);
-            scrollUtils.updateActiveMenuItem(config);
-            scrollUtils.handleNavbarScroll(simpleBar, config);
+            initializeNavResponsiveEvents(config);
+            if (currentPage == "menu.html") {
+                scrollUtilsMenu.updateActiveMenuItem(config);
+                scrollUtilsMenu.handleNavbarScroll(simpleBar, config);
+                initializeNavResponsiveEvents(config);
+            } else {
+                scrollUtils.updateActiveMenuItem(config);
+                scrollUtils.handleNavbarScroll(simpleBar, config);
+                initializeNavResponsiveEvents(config);
+            }
             floatingButtons.handleFloatingButtons(config);
+            initializeNavResponsiveEvents(config);
         }, 200)
     );
 };
-
-

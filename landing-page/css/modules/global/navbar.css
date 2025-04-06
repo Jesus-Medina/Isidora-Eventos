@@ -133,6 +133,8 @@
 
 .navbar__social-media-container {
     width: 20%;
+
+
 }
 
 .navbar__social-menu-list {
@@ -142,6 +144,8 @@
     gap: 1rem;
     height: 100%;
     color: var(--color-text-light);
+    color: white;
+    list-style: none;
 }
 
 .navbar__social-menu-item {
@@ -153,3 +157,18 @@
     height: 1.5rem;
     filter: drop-shadow(var(--text-shadow-sm));
 }
+
+
+/* open menu buton responsive*/
+.navbar-open-menu-button{
+    display: none;
+}
+
+.navbar__close-menu-button{
+    display: none;
+}
+
+.hamburger__menu {
+    display: none;
+}
+
