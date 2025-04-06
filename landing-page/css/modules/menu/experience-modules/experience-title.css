@@ -1,3 +1,6 @@
+@import url(../../../base/colors.css);
+
+
 .experience__title-container {
 
 
@@ -12,8 +15,7 @@
 
 
 .line {
-
-    background-color: goldenrod;
+    background-color: var(--color-secondary);
     height: 2%;
     width: 100%;
 }

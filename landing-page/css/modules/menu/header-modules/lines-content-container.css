@@ -1,7 +1,10 @@
+
+@import url(../../../base/colors.css);
+
 .header-line{
     width: 6px; /* Longitud de la línea */
     height: 7.8rem; /* Grosor de la línea */
-    background-color: rgb(0, 0, 0); /* Color de la línea */
+    background-color: var(--color-bg-dark); /* Color de la línea */
     border: none; /* Elimina el borde predeterminado de <hr> */
 }
 

@@ -1,3 +1,4 @@
+@import url(../../base/colors.css);
 
 /* STANDAR BUTTON */
 
@@ -5,13 +6,13 @@
     width: 10rem;
     padding: 1rem 2rem;
     border-radius: 10px;
-    background-color: #800000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
+    background-color: var(--color-primary);
+    box-shadow: var(--shadow-md);
 }
 
 .standar__button-link {
     text-decoration: none;
-    color: white;
+    color: var(--color-text-light);
     font-family: "Prata", serif;
     font-weight: bold;
     font-size: 0.8rem;
@@ -24,6 +25,8 @@
     width: 10rem;
     padding: 1rem 2rem;
     border-radius: 10px;
+    background-color:var(--color-primary);
+    box-shadow:  var(--shadow-md);
     background-color: #800000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }

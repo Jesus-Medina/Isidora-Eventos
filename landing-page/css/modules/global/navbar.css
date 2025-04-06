@@ -1,3 +1,4 @@
+@import url(../../base/colors.css);
 
 /* NAVBAR CONTAINER LAYOUT STYLES */
 
@@ -26,9 +27,9 @@
 
 /* Clase para cuando el navbar está scrolleado */
 .navbar.scrolled {
-    background-color: black; /* O el color que prefieras */
+    background-color: var(--color-bg-dark); /* O el color que prefieras */
     height: 12vh; /* Altura reducida cuando está scrolleado */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: var(--box-shadow-sm); /* Sombra sutil */
 }
 
 
@@ -59,7 +60,7 @@
 .navbar__menu-item a {
     display: flex;
     width: 100%;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
+    text-shadow: var(--text-shadow-sm);
 }
 
 .navbar__menu-logo {
@@ -76,7 +77,7 @@
 .navbar__logo-image {
     width: auto;
     height: 100%;
-    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.432));
+    filter: drop-shadow(var(--shadow-sm));
 }
 
 .navbar__menu-item a {
@@ -89,7 +90,7 @@
 }
 
 .navbar__menu-item .navbar__menu-item-black{
-    color: black;
+    color: var(--color-text-dark);
 }
 
 
@@ -117,14 +118,14 @@
 .navbar__mobile-number-icon {
     width: 1.5;
     height: 1.5rem;
-    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.432));
+    filter: drop-shadow(var(--text-shadow-sm));
 }
 
 .navbar__mobile-number-text {
     font-size: 0.8rem;
     letter-spacing: 2px;
-    color: white;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
+    color: var(--color-text-light);
+    text-shadow:var(--text-shadow-sm);
 }
 
 
@@ -142,6 +143,7 @@
     align-items: center;
     gap: 1rem;
     height: 100%;
+    color: var(--color-text-light);
     color: white;
     list-style: none;
 }
@@ -153,7 +155,7 @@
 .navbar__social-menu-icon {
     width: 1.5rem;
     height: 1.5rem;
-    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.432));
+    filter: drop-shadow(var(--text-shadow-sm));
 }
 
 
@@ -169,3 +171,4 @@
 .hamburger__menu {
     display: none;
 }
+

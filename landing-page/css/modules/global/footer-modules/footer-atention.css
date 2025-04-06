@@ -1,3 +1,4 @@
+@import url(../../../base/colors.css);
 
 /* FOOTER ATENTION CONTENT MEDIA STYLES */
 
@@ -13,7 +14,7 @@
 .footer_atention-content hr {
     flex-grow: 1;
     height: 0.1rem; /* Grosor de la línea */
-    background-color: white; /* O el color que prefieras */
+    background-color: var(--color-bg-light); /* O el color que prefieras */
     border: none; /* Elimina cualquier borde predeterminado */
 }
 
