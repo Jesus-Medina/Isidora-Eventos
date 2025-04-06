@@ -1,4 +1,6 @@
 @import url(../../theme/typography.css);
+@import url(../../../base/colors.css);
+
 
 /* ABOUT US CONTENT STYLES */
 
@@ -11,7 +13,7 @@
     width: 45vw; /* Ancho ajustado al diseño */
     height: 60%; /* Ajuste de altura */
     text-align: center; /* Justifica el texto */
-    background-color: white; 
+    background-color: var(--color-bg-light); 
 }
 
 /*Container titulo*/

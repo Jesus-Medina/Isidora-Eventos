@@ -64,6 +64,8 @@
     <link rel="stylesheet" href="css/state/home/home-page-states.css">
     <link rel="stylesheet" href="css/state/home/about-us-responsive.css">
     <link rel="stylesheet" href="css/state/services/services-responsive.css">
+    <link rel="stylesheet" href="css/state/contact/contact-responsive.css">
+    <link rel="stylesheet" href="css/state/global/navbar-responsive.css">
 
     <!-- ========================= LIBRERÍAS EXTERNAS ========================= -->
     <!-- SimpleBar -->
@@ -88,22 +90,25 @@
         <section class="header" id="home">
             <!-- Video de fondo -->
             <video class="header__video-background" autoplay muted loop>
-                <source src="assets/videos/header-video-3.webm" type="video/mp4">
+                <source src="assets/videos/header-video-1.webm" type="video/mp4">
                 Tu navegador no soporta la reproducción de video.
             </video>
 
             <!-- Barra de navegación -->
-            <div class="navbar-wrapper">
+            <div id="navbar"  class="navbar-wrapper">
                 <nav class="navbar">
                     <!-- Menú redes sociales -->
-                    <div class="navbar__social-media-container">
+                    <div id="social" class="navbar__social-media-container">
+                        <button id="open" class="navbar-open-menu-button"><span></span></button>
+                        <button id="close" class="navbar__close-menu-button hide__item close__menu"></button>
+
                         <ul class="navbar__social-menu-list">
                             <li class="navbar__social-menu-item">
                                 <a href="#">
                                     <img class="navbar__social-menu-icon" id="facebook-icon" src="assets/images/facebook-icon.webp" alt="Facebook">
                                 </a>
                             </li>
-                            <li class="navbar__social-menu-item">
+                            <li class="navbar__social-menu-it3em">
                                 <a href="#">
                                     <img class="navbar__social-menu-icon" id="instagram-icon" src="assets/images/instagram-icon.webp" alt="Instagram">
                                 </a>
@@ -114,21 +119,21 @@
                     <!-- Menú central -->
                     <div class="navbar__central-menu-container">
                         <ul class="navbar__menu">
-                            <li class="navbar__menu-item"><a href="#home">Inicio</a></li>
-                            <li class="navbar__menu-item"><a href="#services">Servicios</a></li>
+                            <li class="navbar__menu-item desktop__item"><a href="#home">Inicio</a></li>
+                            <li class="navbar__menu-item desktop__item"><a href="#services">Servicios</a></li>
                             <li class="navbar__menu-logo">
                                 <a href="#" class="navbar__logo-container">
                                     <img class="navbar__logo-image" src="assets/images/logo.webp" alt="Logo">
                                 </a>
                             </li>
-                            <li class="navbar__menu-item"><a href="#about">Nosotros</a></li>
-                            <li class="navbar__menu-item"><a href="#contact">Contacto</a></li>
+                            <li class="navbar__menu-item desktop__item"><a href="#about">Nosotros</a></li>
+                            <li class="navbar__menu-item desktop__item"><a href="#contact">Contacto</a></li>
                         </ul>
                     </div>
 
                     <!-- Contacto móvil -->
                     <div class="navbar__mobile-number-container">
-                        <a href="pages/menu.html" class="navbar__mobile-number-link">
+                        <a href="../pages/menu.html" class="navbar__mobile-number-link">
                             <div class="navbar__mobile-number">
                                 <img class="navbar__mobile-number-icon" src="assets/images/menu.png" alt="Teléfono">
                                 <p class="navbar__mobile-number-text">Ver Menu</p>
@@ -137,6 +142,43 @@
                     </div>
                 </nav>
             </div>
+
+            <!-- Responsvie navbar-->
+
+            <nav id="hambuerger__menu" class="hamburger__menu hide__item">
+
+                <div class="list__hamburger-menu">
+
+                    <div class="navbar__central-menu-container">
+                        <ul  class="navbar__menu">
+                            <li id="close" class="navbar__menu-item"><a href="#home">Inicio</a></li>
+                            <li class="navbar__menu-item "><a href="#services">Servicios</a></li>
+                    
+                            <li class="navbar__menu-item "><a href="#about">Nosotros</a></li>
+                            <li class="navbar__menu-item "><a href="#contact">Contacto</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                
+                <div class="social__hamburger-menu">
+                    <div id="social" class="navbar__social-media-container-hamburger">
+                        
+                        <ul class="navbar__social-menu-list-hamburger">
+                            <li class="navbar__social-menu-item-hamburger">
+                                <a href="#">
+                                    <img class="navbar__social-menu-icon-hamburger" id="facebook-icon" src="assets/images/facebook-icon.webp" alt="Facebook">
+                                </a>
+                            </li>
+                            <li class="navbar__social-menu-item-hamburger">
+                                <a href="#">
+                                    <img class="navbar__social-menu-icon-hamburger" id="instagram-icon" src="assets/images/instagram-icon.webp" alt="Instagram">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
             <!-- Contenido del header -->
             <div class="header__content">
@@ -213,6 +255,7 @@
             <div class="empty__container-about-us"></div>
         </section>
 
+                <!-- =========== SECCIÓN CONTACTO =========== -->
         <section class="form" id="contact">
             <div class="form__container">
                 <div class="form__side-items-container">
@@ -220,6 +263,7 @@
                         <h1>Cotiza con nosotros</h1>
                         <p>Estaremos encantados de atenderte por cualquiera de nuestros canales.</p>
                     </div>
+                    <div class="form__contact-grid">
 
                     <div class="form__item">
                         <img src="assets/images/phone.png" alt="">
@@ -238,6 +282,8 @@
                         <p>Jdiosc@gmail.com</p>
                     </div>
                 </div>
+            </div>
+
                 
                 <div class="form__form-container">
                     <h1>Envíanos un mensaje</h1>
