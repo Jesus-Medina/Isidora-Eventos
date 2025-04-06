@@ -1,18 +1,30 @@
-
 /* BASE COLORS STYLES */
-
-/* TODO ARREGLAR COLORES A COLORES REALES DEL PROYECTO Y PONERLOS EN VARIABLES*/
 
 :root {
     /* Primary Colors */
     --color-primary: #800000;
     --color-secondary: goldenrod;
-    
+
     /* Text Colors */
     --color-text-light: white;
     --color-text-dark: #333;
-    
+
     /* Background Colors */
     --color-bg-overlay: rgba(51, 29, 0, 0.295);
-    --color-bg-dark: rgba(0,0,0,0.7);
+    --color-bg-dark: rgb(0, 0, 0);
+    --color-bg-light: white;
+
+    /* Transparencias */
+    --color-black-10: rgba(0, 0, 0, 0.1);
+    --color-black-30: rgba(0, 0, 0, 0.3);
+    --color-black-40: rgba(0, 0, 0, 0.4);
+    --color-black-50: rgba(0, 0, 0, 0.5);
+
+    /* Sombras */
+    --shadow-sm: 0 0 5px var(--color-black-10);
+    --shadow-md: 0 0 10px var(--color-black-30);
+    --shadow-lg: 0 0 15px var(--color-black-50);
+    --text-shadow-sm: 1px 1px 1px var(--color-black-50);
+    --text-shadow-md: 3px 3px 5px var(--color-black-30);
+    --box-shadow-sm: 0 2px 10px var(--color-black-10);
 }

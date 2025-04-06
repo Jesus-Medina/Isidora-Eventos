@@ -1,0 +1,120 @@
+@import url(../../theme/typography.css);
+
+/* ABOUT US RESPONSIVE STYLES */
+
+/* Móviles Pequeños: 320px - 480px */
+@media screen and (max-width: 480px) {
+    .container__content-about-us {
+        width: 90vw;
+        height: 58%;
+    }
+
+    .container__title-about-us {
+        width: 100%;
+        height: 10%;
+    }
+
+    .title__about-us {
+        font-size: var(--text-base);
+        width: 100%;
+        padding-top: 3%;
+    }
+
+    .container__description-about-us {
+        font-size: var(--text-xs);
+        height: 85%;
+        width: 95%;
+    }
+
+    .empty__container-about-us {
+        width: 40vw;
+        height: 100%;
+    }
+}
+
+/* Móviles Medianos: 481px - 640px */
+@media screen and (min-width: 481px) and (max-width: 640px) {
+    .container__content-about-us {
+        width: 85vw;
+        height: 75%;
+    }
+
+    .container__title-about-us {
+        width: 100%;
+        height: 10%;
+    }
+
+    .title__about-us {
+        font-size: var(--text-lg);
+        width: 100%;
+        padding-top: 3%;
+    }
+
+    .container__description-about-us {
+        font-size: var(--text-xs);
+        height: 90%;
+    }
+
+    .empty__container-about-us {
+        width: 40vw;
+        height: 100%;
+    }
+}
+
+/* Móviles Grandes: 641px - 768px */
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .container__content-about-us {
+        width: 85vw;
+        height: 80%;
+    }
+
+    .container__title-about-us {
+        width: 100%;
+        height: 14%;
+    }
+
+    .title__about-us {
+        font-size: var(--text-lg);
+        width: 100%;
+        padding-top: 3%;
+    }
+
+    .container__description-about-us {
+        font-size: var(--text-sm);
+        height: 90%;
+    }
+
+    .empty__container-about-us {
+        width: 40vw;
+        height: 100%;
+    }
+}
+
+/* Tablets: 769px - 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container__content-about-us {
+        width: 85vw;
+        height: 85%;
+    }
+
+    .container__title-about-us {
+        width: 100%;
+        height: 15%;
+    }
+
+    .title__about-us {
+        font-size: var(--text-lg);
+        width: 100%;
+        padding-top: 3%;
+    }
+
+    .container__description-about-us {
+        font-size: var(--text-sm);
+        height: 90%;
+    }
+
+    .empty__container-about-us {
+        width: 40vw;
+        height: 100%;
+    }
+}

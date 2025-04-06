@@ -1,3 +1,4 @@
+@import url(../../base/colors.css);
 
 /* NAVBAR CONTAINER LAYOUT STYLES */
 
@@ -26,7 +27,7 @@
 
 /* Clase para cuando el navbar está scrolleado */
 .navbar.scrolled {
-    background-color: black; /* O el color que prefieras */
+    background-color: var(--color-bg-dark); /* O el color que prefieras */
     height: 12vh; /* Altura reducida cuando está scrolleado */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: var(--box-shadow-sm); /* Sombra sutil */
 }

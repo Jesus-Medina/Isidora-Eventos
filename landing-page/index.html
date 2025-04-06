@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="css/layout/home/services.css">
     <link rel="stylesheet" href="css/layout/home/about-us.css">
     <link rel="stylesheet" href="css/layout/global/footer.css">
-    <link rel="stylesheet" href="css/layout/home/form.css">
+    <link rel="stylesheet" href="css/layout/home/collaborators.css">
 
     <!-- Módulos CSS -->
     <!-- Header -->
@@ -55,6 +55,9 @@
     <link rel="stylesheet" href="css/modules/global/footer-modules/footer-copyleft.css">
     <link rel="stylesheet" href="css/modules/global/footer-modules/footer-atention-social-media.css">
 
+    <!-- Colaboradores -->
+    <link rel="stylesheet" href="css/modules/home/collaborators-modules/collaborators-presentation-module.css">
+
     <!-- Módulos Globales -->
     <link rel="stylesheet" href="css/modules/global/whatsapp-button.css">
     <link rel="stylesheet" href="css/modules/global/standar-button.css">
@@ -63,7 +66,11 @@
     <!-- Estados -->
     <link rel="stylesheet" href="css/state/home/home-page-states.css">
     <link rel="stylesheet" href="css/state/global/footer-responsive.css">
+    <link rel="stylesheet" href="css/state/home/about-us-responsive.css">
+    <link rel="stylesheet" href="css/state/home/services-responsive.css">
+    <link rel="stylesheet" href="css/state/contact/contact-responsive.css">
     <link rel="stylesheet" href="css/state/global/navbar-responsive.css">
+    <link rel="stylesheet" href="css/state/home/collaborators-responsive.css">
 
     <!-- ========================= LIBRERÍAS EXTERNAS ========================= -->
     <!-- SimpleBar -->
@@ -72,11 +79,12 @@
 
     <!-- JavaScript Principal -->
     <script type="module" src="./js/main.js"></script>
+
 </head>
 <body>
     <!-- ========================= BOTÓN WHATSAPP ========================= -->
     <div class="whatsapp-container">
-        <a href="#">
+        <a href="https://wa.me/56996551717" target="_blank" rel="noopener noreferrer">
             <img class="whatsapp-container__image" src="assets/images/whatsapp.webp" alt="WhatsApp contacto">
         </a>
     </div>
@@ -86,11 +94,13 @@
         <!-- =========== SECCIÓN HEADER =========== -->
         <section class="header" id="home">
             <!-- Video de fondo -->
+            <!-- 
             <video class="header__video-background" autoplay muted loop>
                 <source src="assets/videos/header-video-1.webm" type="video/mp4">
                 Tu navegador no soporta la reproducción de video.
             </video>
-
+            -->
+            
             <!-- Barra de navegación -->
             <div id="navbar"  class="navbar-wrapper">
                 <nav class="navbar">
@@ -188,7 +198,7 @@
                         </div>
                         <div class="standar__button">
                             <a href="#cotizar" class="standar__button-link">
-                                <p class="standar__button-text">Contactanos</p>
+                                <p class="standar__button-text">Conócenos</p>
                             </a>
                         </div>
                     </div>
@@ -252,60 +262,27 @@
             <div class="empty__container-about-us"></div>
         </section>
 
-        <section class="form" id="contact">
-            <div class="form__container">
-                <div class="form__side-items-container">
-                    <div class="form__title">
-                        <h1>Cotiza con nosotros</h1>
-                        <p>Estaremos encantados de atenderte por cualquiera de nuestros canales.</p>
-                    </div>
-
-                    <div class="form__item">
-                        <img src="assets/images/phone.png" alt="">
-                        <p>+56 9 1234 5678</p>
-                    </div>
-                    <div class="form__item">
-                        <img src="assets/images/instagram-icon.webp" alt="">
-                        <p>@Doña Isidora</p>
-                    </div>
-                    <div class="form__item">
-                        <img src="assets/images/facebook-icon.webp" alt="">
-                        <p>@Doña isidora</p>
-                    </div>
-                    <div class="form__item">
-                        <img src="assets/images/email.png" alt="">
-                        <p>Jdiosc@gmail.com</p>
-                    </div>
+                <!-- =========== SECCIÓN CONTACTO =========== -->
+        <section class="collaborators" id="contact">
+            <div class="collaborators__content">
+                <h1>Con quiénes hemos trabajado</h1>
+                <div class="collaborators__container">
+                    <ul class="collaborators__list">
+                        <li class="collaborators__item"><img src="assets/images/lotus-icon.png" alt="Colaborador 2"></li>
+                        <li class="collaborators__item"><img src="assets/images/midea-icon.png" alt="Colaborador 3"></li>
+                        <li class="collaborators__item"><img src="assets/images/udla-icon.png" alt="Colaborador 4"></li>
+                        <li class="collaborators__item"><img src="assets/images/unab-icon.png" alt="Colaborador 5"></li>
+                        <li class="collaborators__item"><img src="assets/images/cencosud-icon.webp" alt="Colaborador 6"></li>
+                        <li class="collaborators__item"><img src="assets/images/favet-icon.png" alt="Colaborador 7"></li>
+                        <li class="collaborators__item"><img src="assets/images/finis-terrae-icon.png" alt="Colaborador 8"></li>
+                        <li class="collaborators__item"><img src="assets/images/duoc-icon.png" alt="Colaborador 9"></li>
+                        <li class="collaborators__item"><img src="assets/images/aiep-icon.png" alt="Colaborador 10"></li>
+                        <li class="collaborators__item"><img src="assets/images/angelini-icon.jpg" alt="Colaborador 11"></li>
+                        <li class="collaborators__item-gob"><img src="assets/images/minsal-icon.png" alt="Colaborador 12"></li>
+                        <li class="collaborators__item-gob"><img src="assets/images/ministerio-medio-ambiente-icon.png" alt="Colaborador 2"></li>
+                    </ul>
                 </div>
-                
-                <div class="form__form-container">
-                    <h1>Envíanos un mensaje</h1>
-                    <form class="form__group-container" action="" method="post">
-                        <div class="form__group">
-                            <label for="name">Nombre y Apellido</label>
-                            <input type="text" name="name" id="name" required placeholder="Felipe Cacerez">
-                        </div>
-                        <div class="form__group">
-                            <label for="email">Correo</label>
-                            <input type="email" name="email" id="email" required placeholder="felipe@gmail.com">
-                        </div>
-                        <div class="form__group">
-                            <label for="phone">Teléfono</label>
-                            <input type="tel" name="phone" id="phone" required placeholder="+56 9 1234 5678">
-                        </div>
-                        <div class="form__group">
-                            <label for="message">Mensaje</label>
-                            <textarea name="message" id="message" required placeholder="Cuéntanos más detalles acerca de tu evento"></textarea>
-                        </div>
-                        <div class="form__group">
-                            <div class="standar__button-light-shadow" type="submit">
-                                <a href="#cotizar" class="standar__button-link">
-                                    <p class="standar__button-text">Contactanos</p>
-                                </a>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                <p>En Doña Isidora hemos trabajado con reconocidas instituciones y empresas del país, lo que refleja nuestra experiencia y el compromiso con un servicio de catering confiable y de calidad.</p>
             </div>
         </section>
 
@@ -318,8 +295,8 @@
                         <h1>Confíe en nosotros para ofrecer experiencias únicas que impresionen a sus clientes y colaboradores</h1>
                         <h2>Permita que nuestra experiencia impulse su imagen corporativa y consolide sus relaciones empresariales.</h2>
                     </div>
-                    <div class="standar__button-light-shadow">
-                        <a href="#cotizar" class="standar__button-link">
+                    <div class="standar__button-light-shadow standar-button">
+                        <a href="https://wa.me/56996551717" target="_blank" rel="noopener noreferrer" class="standar__button-link">
                             <p class="standar__button-text">Contactanos</p>
                         </a>
                     </div>
@@ -338,7 +315,7 @@
                     <div class="footer__atention-text">
                         <div>
                             <h1>Horario de atención</h1>
-                            <h2>Atendemos de Lunes a Viernes de 9:00 a 18:00hs.</h2>
+                            <h2>Atendemos de Lunes a Domingo de 08:00 a 24:00hs.</h2>
                         </div>
                     </div>
                     <hr>
@@ -358,11 +335,14 @@
             <!-- Copyleft -->
             <div class="copyleft__container">
                 <div class="copyleft__content">
-                    <h1>COPYLEFT © 2025 | 
+                    <div>
                         <a href="https://www.gnu.org/licenses/agpl-3.0.html#license-text" target="_blank" rel="noopener noreferrer">
+                            COPYLEFT © 2025 |
+                        </a>
+                        <a href="pages/legal.html" target="_blank" rel="noopener noreferrer">
                             Aviso legal
                         </a>
-                    </h1>
+                    </div>
                     <h1>Sitio Web desarrollado por Jematodi, conocenos 
                         <a class="copyleft__credits" href="#" target="_blank" rel="noopener noreferrer">
                             aqui.

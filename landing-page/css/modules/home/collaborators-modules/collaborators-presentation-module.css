@@ -1,0 +1,21 @@
+.collaborators__list {
+    width: 100%;
+    max-width: 1000px; /* o el valor que te acomode */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.collaborators__item img{
+    width: 150px;
+    height: auto;
+}
+
+.collaborators__item-gob img{
+    width: 100px;
+    height: auto;
+}

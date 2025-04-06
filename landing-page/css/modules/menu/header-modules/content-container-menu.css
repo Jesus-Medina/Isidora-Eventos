@@ -1,3 +1,5 @@
+@import url(../../../base/colors.css);
+
 .content-container{
     align-items: center;
     justify-content: center;
@@ -19,19 +21,19 @@
     font-family: 'Prata', serif; /* Tipo de letra */
     font-size: clamp(2.5rem,4vw,4.8rem); /* Tamaño del título */
     letter-spacing: 15%;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    text-shadow: var(--text-shadow-md); /* Sombra suave */
 }
 
 .style-sub-title{
     font-family: 'Prata', serif; /* Tipo de letra */
     font-size: 2vw;
     letter-spacing: 15%;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    text-shadow: var(--text-shadow-md); /* Sombra suave */
 }
 
 .style-text{
     font-family: 'Prata', serif; /* Tipo de letra */
     font-size: 1.1vw;
     letter-spacing: 15%;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    text-shadow: var(--text-shadow-md); /* Sombra suave */
 }

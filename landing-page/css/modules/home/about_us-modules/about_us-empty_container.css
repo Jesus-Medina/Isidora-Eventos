@@ -1,3 +1,4 @@
+@import url(../../../base/colors.css);
 
 /* ABOUT US EMPTY CONTAINER STYLES */
 
@@ -7,5 +8,5 @@
     height: 100%; /* Altura del rectángulo */
     position: absolute; /* Asegura que sea independiente del flujo normal */
     z-index: 1; /* Detrás del contenido principal */
-    background-color: white;
+    background-color: var(--color-bg-light);
 }

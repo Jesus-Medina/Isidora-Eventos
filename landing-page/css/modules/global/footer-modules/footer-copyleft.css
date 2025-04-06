@@ -1,3 +1,5 @@
+@import url(../../../theme/typography.css);
+@import url(../../../base/colors.css);
 
 /* FOOTER COPYLEFT STYLES */
 
@@ -10,12 +12,17 @@
 }
 
 .copyleft__content a, .copyleft__content h1{
-    color: white;
+    color: var(--color-text-light);
     text-decoration: none;
-    font-size: 0.8vw;
+    font-size: var(--text-xs);
 }
 
 .copyleft__content .copyleft__credits {
-    color: #800000;
+    color: var(--color-primary);
     text-decoration: underline;
+}
+
+.legal__advice {
+    font-size: 0.5rem;
+    color: white;
 }
