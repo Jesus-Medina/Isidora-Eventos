@@ -1,4 +1,5 @@
 
+@import url(../../../theme/typography.css);
 /* FOOTER CONTACT CONTENT STYLES */
 
 .contact__content {
@@ -14,9 +15,10 @@
 }
 
 .contact__content h1{
-    font-size: 2.6vw;
+    font-size: var(--text-xl);
+    
 }
 
 .contact__content h2{
-    font-size: 1.1vw;
+    font-size: var(--text-sm);
 }
