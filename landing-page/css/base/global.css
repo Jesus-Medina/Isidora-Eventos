@@ -21,6 +21,7 @@ html, body {
 
 .scroll-container .simplebar-content-wrapper {
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 }
 
 .simplebar-content {

@@ -1,9 +1,0 @@
-@import url(../../../base/colors.css);
-
-.navbar__menu-item a {
-    color: var(--color-text-dark);
-}
-
-.text__scrolled-white {
-    color: var(--color-text-light) !important;
-}
