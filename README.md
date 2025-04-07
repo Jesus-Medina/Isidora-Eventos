@@ -1,5 +1,5 @@
 # Isidora-Eventos 
 
-Proyecto en Desarrollo (etapa inicial)
+Proyecto en Desarrollo (FINALIZADO)
 
-![Development Image](https://images.surferseo.art/9602bc4b-cfc4-410e-b291-611d478c9d6a.png)
+![Development Image](https://www.shutterstock.com/image-vector/business-team-celebrate-success-finished-260nw-2411403719.jpg)
