@@ -31,16 +31,14 @@
     <!-- Estilos de Layout -->
     <link rel="stylesheet" href="../css/layout/menu/header.css">
     <link rel="stylesheet" href="../css/layout/menu/services.css">
-    <link rel="stylesheet" href="../css/layout/menu/menu.css">
+    <link rel="stylesheet" href="../css/layout/menu/menu-section.css">
     <link rel="stylesheet" href="../css/layout/global/footer.css">
     <link rel="stylesheet" href="../css/layout/menu/form.css">
     <link rel="stylesheet" href="../css/layout/menu/experience.css">
 
     <!-- Módulos CSS -->
-    <link rel="stylesheet" href="../css/modules/menu//header-modules/content-container-menu.css">
-    <link rel="stylesheet" href="../css/modules/menu/header-modules/image-container-menu.css">
-    <link rel="stylesheet" href="../css/modules/menu/header-modules/lines-content-container.css">
-    <link rel="stylesheet" href="../css/modules/menu/header-modules/navbar-menu-header.css">
+    <!-- Header -->
+    <link rel="stylesheet" href="../css/modules/home/header-modules/header-content.css">
 
     <!-- Footer -->
     <link rel="stylesheet" href="../css/modules/global/footer-modules/footer-contact.css">
@@ -48,6 +46,7 @@
     <link rel="stylesheet" href="../css/modules/global/footer-modules/footer-atention.css">
     <link rel="stylesheet" href="../css/modules/global/footer-modules/footer-copyleft.css">
     <link rel="stylesheet" href="../css/modules/global/footer-modules/footer-atention-social-media.css">
+    <link rel="stylesheet" href="../css/modules/menu/footer-modules/standar-button-menu.css">
 
     <!-- Experience -->
     <link rel="stylesheet" href="../css/modules/menu/experience-modules/experience-card.css">
@@ -73,6 +72,7 @@
 
     <!-- JavaScript Principal -->
     <script type="module" src="../js/main.js"></script>
+    <script src="../js/menu-section.js"></script>
 </head>
 <body>
     <!-- ========================= BOTÓN WHATSAPP ========================= -->
@@ -87,6 +87,14 @@
 
         <!-- =========== SECCIÓN HEADER =========== -->
         <section class="header" id="home">
+            <!-- Video de fondo -->
+            <!-- 
+            <video class="header__video-background" autoplay muted loop>
+                <source src="assets/videos/header-video-1.webm" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+            -->
+            
             <!-- Barra de navegación -->
             <div id="navbar"  class="navbar-wrapper">
                 <nav class="navbar">
@@ -113,23 +121,23 @@
                     <div class="navbar__central-menu-container">
                         <ul class="navbar__menu">
                             <li class="navbar__menu-item desktop__item"><a href="#home">Inicio</a></li>
-                            <li class="navbar__menu-item desktop__item"><a href="#services">Servicios</a></li>
+                            <li class="navbar__menu-item desktop__item"><a href="#services">Experiencia</a></li>
                             <li class="navbar__menu-logo">
-                                <a href="#" class="navbar__logo-container">
+                                <a href="../index.html" class="navbar__logo-container">
                                     <img class="navbar__logo-image" src="../assets/images/logo.webp" alt="Logo">
                                 </a>
                             </li>
-                            <li class="navbar__menu-item desktop__item"><a href="#about">Nosotros</a></li>
-                            <li class="navbar__menu-item desktop__item"><a href="#contact">Contacto</a></li>
+                            <li class="navbar__menu-item desktop__item"><a href="#about">Menu</a></li>
+                            <li class="navbar__menu-item desktop__item"><a href="#footer">Contacto</a></li>
                         </ul>
                     </div>
 
                     <!-- Contacto móvil -->
                     <div class="navbar__mobile-number-container">
-                        <a href="../pages/menu.html" class="navbar__mobile-number-link">
+                        <a href="../index.html" class="navbar__mobile-number-link">
                             <div class="navbar__mobile-number">
-                                <img class="navbar__mobile-number-icon" src="../assets/images/menu.png" alt="Teléfono">
-                                <p class="navbar__mobile-number-text">Ver Menu</p>
+                                <img class="navbar__mobile-number-icon" src="../assets/images/home.png" alt="Teléfono">
+                                <p class="navbar__mobile-number-text">Volver al inicio</p>
                             </div>
                         </a>
                     </div>
@@ -147,7 +155,7 @@
                             <li id="close" class="navbar__menu-item"><a href="#home">Inicio</a></li>
                             <li class="navbar__menu-item "><a href="#services">Servicios</a></li>
                     
-                            <li class="navbar__menu-item "><a href="#about">Nosotros</a></li>
+                            <li class="navbar__menu-item "><a href="#about">Menu</a></li>
                             <li class="navbar__menu-item "><a href="#contact">Contacto</a></li>
                         </ul>
                     </div>
@@ -171,36 +179,31 @@
                         </ul>
                     </div>
                 </div>
-
-
             </nav>
 
-
-
-            <!-- Header -->
-            <div class="header-container">
-                <div class="content-container">
-                    <hr class="header-line">
-                <div class="text-container">
-                    <h1 class="style-title">Menú</h1>
-                    <h3 class="style-sub-title">Coffee Breaks & Catering</h3>
-                    <p class="style-text">Explora nuestras variedades de productos</p>
-                </div>
-                    <div class="line-container">
-                        <hr class="line-rotate-right header-line">
-                        <hr class="header-line">
-                        <hr class="line-rotate-left header-line">
+            <!-- Contenido del header -->
+            <div class="header__content">
+                <div class="header__container">
+                    <hr class="header__vertical-line">
+                    <div class="header__text-container">
+                        <div class="header__text">
+                            <h1 class="header__title">Menu's</h1>
+                            <h3 class="header__subtitle">Cocktails & Platillos</h3>
+                        </div>
+                        <div class="standar__button">
+                            <a href="#cotizar" class="standar__button-link">
+                                <p class="standar__button-text">Explora</p>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="image-container">
-                    <div class="circle"></div> 
-                    <img class="image" src="../assets/images/header-menu.webp" alt="Imagen">
+                    <hr class="header__vertical-line">
                 </div>
             </div>
         </section>
 
+
         <!-- =========== SECCIÓN SERVICIOS =========== -->
-        <section class="experience" id="menu">
+        <section class="experience" id="services">
 
             <div class="experience__content">
 
@@ -262,14 +265,144 @@
         </section>
 
         <!-- =========== SECCIÓN SOBRE MENU =========== -->
-        <section class="menu" id="menu">
-            
+        <section class="menu" id="about">
+            <div class="menu__content">
+                <div class="menu__header">
+                    <h2 class="menu__title">Nuestras Delicias Culinarias</h2>
+                    <p class="menu__subtitle">Descubre nuestra selección de opciones gourmet para coffee breaks y eventos corporativos, preparados con ingredientes frescos y presentados con elegancia.</p>
+                </div>
+                
+                <div class="menu__tabs">
+                    <div class="menu__tab active" data-category="coffee">Coffee Break</div>
+                    <div class="menu__tab" data-category="catering">Catering Corporativo</div>
+                    <div class="menu__tab" data-category="special">Eventos Especiales</div>
+                </div>
+                
+                <div class="menu__categories">
+                    <!-- Coffee Break -->
+                    <div class="menu__category active" data-category="coffee">
+                        <div class="menu__items">
+                            <div class="menu__item">
+                                <img src="../assets/images/catering1.webp" alt="Coffee Break Clásico" class="menu__item-image">
+                                <div class="menu__item-content">
+                                    <div class="menu__item-header">
+                                        <h4 class="menu__item-name">Coffee Break Clásico</h4>
+                                        <span class="menu__item-price">$8.500 p/p</span>
+                                    </div>
+                                    <p class="menu__item-description">Café de especialidad, té selección premium, jugo natural, mini sándwiches variados.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="menu__item">
+                                <img src="../assets/images/catering2.webp" alt="Coffee Break Premium" class="menu__item-image">
+                                <div class="menu__item-content">
+                                    <div class="menu__item-header">
+                                        <h4 class="menu__item-name">Coffee Break Premium</h4>
+                                        <span class="menu__item-price">$12.900 p/p</span>
+                                    </div>
+                                    <p class="menu__item-description">Café, té, jugo natural, agua mineral, mini quiches, canapés gourmet, brochetas de fruta.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="menu__item">
+                                <img src="../assets/images/catering3.webp" alt="Coffee Break Saludable" class="menu__item-image">
+                                <div class="menu__item-content">
+                                    <div class="menu__item-header">
+                                        <h4 class="menu__item-name">Coffee Break Saludable</h4>
+                                        <span class="menu__item-price">$10.500 p/p</span>
+                                    </div>
+                                    <p class="menu__item-description">Infusiones orgánicas, jugos detox, yogurt con granola, wraps vegetarianos, frutos secos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Catering Corporativo -->
+                    <div class="menu__category" data-category="catering">
+                        <div class="menu__items">
+                            <div class="menu__item">
+                                <img src="../assets/images/catering4.webp" alt="Cóctel Ejecutivo" class="menu__item-image">
+                                <div class="menu__item-content">
+                                    <div class="menu__item-header">
+                                        <h4 class="menu__item-name">Cóctel Ejecutivo</h4>
+                                        <span class="menu__item-price">$18.900 p/p</span>
+                                    </div>
+                                    <p class="menu__item-description">12 bocados por persona (8 salados, 4 dulces), incluye servicio de garzón y vajilla.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="menu__item">
+                                <img src="../assets/images/catering5.webp" alt="Almuerzo Corporativo" class="menu__item-image">
+                                <div class="menu__item-content">
+                                    <div class="menu__item-header">
+                                        <h4 class="menu__item-name">Almuerzo Corporativo</h4>
+                                        <span class="menu__item-price">$22.500 p/p</span>
+                                    </div>
+                                    <p class="menu__item-description">Entrada gourmet, plato principal, postre artesanal, bebidas premium y café.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="menu__item">
+                                <img src="../assets/images/catering6.webp" alt="Brunch Empresarial" class="menu__item-image">
+                                <div class="menu__item-content">
+                                    <div class="menu__item-header">
+                                        <h4 class="menu__item-name">Brunch Empresarial</h4>
+                                        <span class="menu__item-price">$16.900 p/p</span>
+                                    </div>
+                                    <p class="menu__item-description">Selección de panes, quesos, fiambres, huevos, frutas frescas y pasteles.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Eventos Especiales -->
+                    <div class="menu__category" data-category="special">
+                        <div class="menu__items">
+                            <div class="menu__item">
+                                <img src="../assets/images/catering7.webp" alt="Cena de Gala" class="menu__item-image">
+                                <div class="menu__item-content">
+                                    <div class="menu__item-header">
+                                        <h4 class="menu__item-name">Cena de Gala</h4>
+                                        <span class="menu__item-price">$35.000 p/p</span>
+                                    </div>
+                                    <p class="menu__item-description">Menú de 4 tiempos con opciones gourmet, maridaje con vinos seleccionados.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="menu__item">
+                                <img src="../assets/images/catering8.webp" alt="Cocktail Internacional" class="menu__item-image">
+                                <div class="menu__item-content">
+                                    <div class="menu__item-header">
+                                        <h4 class="menu__item-name">Cocktail Internacional</h4>
+                                        <span class="menu__item-price">$25.900 p/p</span>
+                                    </div>
+                                    <p class="menu__item-description">15 bocados internacionales, barra de bebidas premium y bartender profesional.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="menu__item">
+                                <img src="../assets/images/catering9.webp" alt="Buffet Temático" class="menu__item-image">
+                                <div class="menu__item-content">
+                                    <div class="menu__item-header">
+                                        <h4 class="menu__item-name">Buffet Temático</h4>
+                                        <span class="menu__item-price">$28.500 p/p</span>
+                                    </div>
+                                    <p class="menu__item-description">Buffet personalizado según temática, con estaciones de comida en vivo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu__footer">
+                    <a href="https://wa.me/56996551717" target="_blank" rel="noopener noreferrer" class="standar__button-link">
+                        <p class="standar__button-text">Solicitar Cotización</p>
+                    </a>
+                </div>
+            </div>
         </section>
-
-        <!-- =========== SECCIÓN INFO =========== -->
-        <section class="info" id="info">
-    
-        </section>
+        
+        
 
         <!-- =========== SECCIÓN FOOTER =========== -->
         <section class="footer" id="footer">
@@ -281,8 +414,8 @@
                         <h2>Permita que nuestra experiencia impulse su imagen corporativa y consolide sus relaciones empresariales.</h2>
                     </div>
                     <div class="standar__button">
-                        <a href="#cotizar" class="standar__button-link">
-                            <p class="standar__button-text">Contactanos</p>
+                        <a href="https://wa.me/56996551717" target="_blank" rel="noopener noreferrer" class="standar__button-link">
+                            <p class="standar__button-text-menu">Contactanos</p>
                         </a>
                     </div>
                 </div>
@@ -320,11 +453,14 @@
             <!-- Copyleft -->
             <div class="copyleft__container">
                 <div class="copyleft__content">
-                    <h1>COPYLEFT © 2025 | 
+                    <div>
                         <a href="https://www.gnu.org/licenses/agpl-3.0.html#license-text" target="_blank" rel="noopener noreferrer">
+                            COPYLEFT © 2025 |
+                        </a>
+                        <a href="legal.html" target="_blank" rel="noopener noreferrer">
                             Aviso legal
                         </a>
-                    </h1>
+                    </div>
                     <h1>Sitio Web desarrollado por Jematodi, conocenos 
                         <a class="copyleft__credits" href="#" target="_blank" rel="noopener noreferrer">
                             aqui.

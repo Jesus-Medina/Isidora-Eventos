@@ -36,7 +36,7 @@
 
 .standar__button-link p {
     width: 100%;
-    height: 100%;
+    height: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,7 +113,7 @@
     left: 0; /* Alinea las rayas a la izquierda */
     width: 100%; /* Ancho completo */
     height: 2px; /* Grosor de las rayas */
-    background: white; /* Color de las rayas (negro) */
+    background: white !important; /* Color de las rayas (negro) */
 }
 
 .navbar-open-menu-button::before {
