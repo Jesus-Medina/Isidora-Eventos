@@ -5,13 +5,17 @@
     width: 100%;
     position: relative;
     overflow-y: auto; /* Permitir scroll */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu__content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem 1rem;
-    width: 100%;
+    width: 90%;
+    height: 90%;
 }
 
 .menu__header {
