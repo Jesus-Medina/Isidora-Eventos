@@ -6,7 +6,7 @@
 @media screen and (max-width: 480px) {
     .container__content-about-us {
         width: 90vw;
-        height: 58%;
+        height: 75%;
     }
 
     .container__title-about-us {

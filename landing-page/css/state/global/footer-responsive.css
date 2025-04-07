@@ -1,6 +1,10 @@
 @media screen and (max-width: 480px){
 
     /* FOOTER ATENTION CONTENT MEDIA STYLES */
+.contact__container {
+    height: 60%;
+}
+
 .footer_atention-content{
     width: 100%;
 }
@@ -36,16 +40,16 @@
 
 .contact__content {
     width: 90%;
-    height: 55%;
+    height: 60%;
 }
 
 .contact__content h1{
-    font-size: 6.5vw;
+    font-size: 5.5vw;
     padding-bottom: 2%;
 }
 
 .contact__content h2{
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
 
 /* FOOTER COPYLEFT STYLES */
