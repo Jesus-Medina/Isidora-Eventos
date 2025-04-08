@@ -19,3 +19,13 @@
     width: 100px;
     height: auto;
 }
+
+.collaborators__title{
+    font-size: var(--text-3xl);
+    font-family: var(--font-secondary);
+}
+
+.collaborators__text{
+    font-size: var(--text-xl);
+    font-family: var(--font-secondary);
+}

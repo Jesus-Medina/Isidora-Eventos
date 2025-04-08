@@ -15,10 +15,10 @@
 }
 
 .contact__content h1{
-    font-size: var(--text-xl);
+    font-size: var(--text-3xl);
     
 }
 
 .contact__content h2{
-    font-size: var(--text-sm);
+    font-size: var(--text-base);
 }
